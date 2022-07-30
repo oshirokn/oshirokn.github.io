@@ -1,4 +1,4 @@
-## Game Design Portfolio
+## Projects
 
 ### They Are You
 
