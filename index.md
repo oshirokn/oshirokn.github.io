@@ -1,6 +1,6 @@
 # Ken Oshiro
 
-I am a **game designer and producer** with **3 years of experience**, currently studying at Aalto University in Game Design and Production. My background is in **Economics (MSc)**.
+I am a **game designer and producer with 3 years of experience**, currently studying at Aalto University in Game Design and Production. **My background is in Economics (MSc)**.
 
 I specialize in **gameplay, game economy and player progression** .
 
@@ -14,11 +14,12 @@ My game projects have **won awards in 3 competitions**, both for PC and mobile.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0RCS__MLQj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
 _Won the Award of the Best Student Game of Finland, Second Place, Bit1 Competition 2022._
+
+  </p>
   
 They Are You is a puzzle/action game where you become who you kill. Possess your enemies and use their unique abilities to brave the dangers of the Tower. 
 Plan your moves carefully, each mistake is fatal! Who will you kill first? Who will you become?
   
-</p>
 
 [Game available on itch.io](https://aalto-gamedesign.itch.io/they-are-you)
 
