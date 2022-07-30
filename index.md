@@ -1,6 +1,4 @@
-# Projects
-
-## They Are You - Puzzle, PC
+# They Are You - Puzzle, PC
 
 They Are You is a puzzle/action game where you become who you kill. Possess your enemies and use their unique abilities to brave the dangers of the Tower. 
 Plan your moves carefully, each mistake is fatal! Who will you kill first? Who will you become?
@@ -12,7 +10,7 @@ _Won the Award of the Best Student Game of Finland, Second Place, Bit1 Competiti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0RCS__MLQj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-[Check the game on itch.io]([https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://aalto-gamedesign.itch.io/they-are-you)).
+[Game available on itch.io](https://aalto-gamedesign.itch.io/they-are-you)
 
 As lead designer my major contributions were:
 - game mechanics and character abilities
@@ -25,11 +23,13 @@ As lead designer my major contributions were:
 
 The game has been made in 5 months during my studies at Aalto University. The team consisted of 3 designers.
 
-## Massacre at High Castle - Action, PC
+# Massacre at High Castle - Action, PC
 
 Massacre at High Castle is a fast paced action game. Possess your enemies to gain their strengths and use it to your advantage. As you rampage through the castle, destroy your environment and kill enemies to unlock your power. Dance around enemies by dashing and unleash combos to annihilate your foes.
 
 _Won the Award of the Best Game, , Assembly Competition 2022._
+
+[Game available on itch.io]()
 
 As lead designer my major contributions were:
 - game mechanics and character abilities
@@ -41,7 +41,7 @@ As lead designer my major contributions were:
 
 The game has been made in 6 weeks during my studies at Kajaani University of Applied Sciences. I was the only designer within the team.
 
-## Soul Odyssey - F2P Mobile, Action
+# Soul Odyssey - F2P Mobile, Action
 
 Set in the Greek mythology, you control Charon the soul ferryman. Fight your way through the deadly rivers of the underworld, deliver souls, gain the powers of the Gods and lead Persephone to Hades.
 
@@ -64,11 +64,13 @@ As lead designer my major contributions were:
 
 The game has been made in 6 months during my studies at Oulu Game Lab. I was the only designer within the team.
 
-## Vikings: Heroes of Asgard - F2P Mobile, RPG
+# Vikings: Heroes of Asgard - F2P Mobile, RPG
 
 In partnership with SuperHit Oy, I have been leading a team of 5 as producer/designer/developer for this hero collection turn based RPG. Inspired by Norse mythology, the player has to rebuild Asgard, collect legendary heroes and fight the Draugr and Jotuns through the Nine Realms around Yggdrasil.
 
 _Finalist for the Best Student Game of Finland, Bit1 competition, 2021_
+
+[Available in the Google Play Store](https://play.google.com/store/apps/details?id=com.uneton.soulodyssey)
 
 As lead designer my major contributions were:
 - game mechanics
