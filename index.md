@@ -66,7 +66,7 @@ The game has been made in 6 weeks during my studies at Kajaani University of App
 ## Soul Odyssey - F2P Action
 
 <p align="center">
-<iframe width="854" height="480" src="https://www.youtube.com/embed/Dor3koGw92I" title="Soul Odyssey Game Trailer #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/Dor3koGw92I" title="Soul Odyssey Game Trailer #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <i>Won the Oulu Game Lab Competition, First Place, Autumn 2021.</i>
 </p>
 
