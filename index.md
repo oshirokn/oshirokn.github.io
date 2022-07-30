@@ -13,13 +13,11 @@ My game projects have **won awards in 3 competitions**, both for PC and mobile.
 
 ## They Are You - Puzzle
 
-<a href="url"><img src="(https://img.itch.zone/aW1nLzg5NDE2ODcucG5n/original/43cbZe.png" align="center" height="48"></a>
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0RCS__MLQj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
 <i>Won the Award of the Best Student Game of Finland, Second Place, Bit1 Competition 2022.</i>
-
-  </p>
+</p>
   
 They Are You is a puzzle/action game where you become who you kill. Possess your enemies and use their unique abilities to brave the dangers of the Tower. 
 Plan your moves carefully, each mistake is fatal! Who will you kill first? Who will you become?
@@ -43,10 +41,12 @@ The game has been made in 5 months during my studies at Aalto University. The te
 
 
 ## Massacre at High Castle - Action
+<p align="center">
+  
+<i>Won the Award of the Best Game, , Assembly Competition 2022.</i>
+</p>
 
 Massacre at High Castle is a fast paced action game. Possess your enemies to gain their strengths and use it to your advantage. As you rampage through the castle, destroy your environment and kill enemies to unlock your power. Dance around enemies by dashing and unleash combos to annihilate your foes.
-
-<i>Won the Award of the Best Game, , Assembly Competition 2022.</i>
 
 [Game available on itch.io]()
 
@@ -65,9 +65,12 @@ The game has been made in 6 weeks during my studies at Kajaani University of App
 
 ## Soul Odyssey - F2P Action
 
-Set in the Greek mythology, you control Charon the soul ferryman. Fight your way through the deadly rivers of the underworld, deliver souls, gain the powers of the Gods and lead Persephone to Hades.
-
+<p align="center">
+<iframe width="854" height="480" src="https://www.youtube.com/embed/Dor3koGw92I" title="Soul Odyssey Game Trailer #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <i>Won the Oulu Game Lab Competition, First Place, Autumn 2021.</i>
+</p>
+
+Set in the Greek mythology, you control Charon the soul ferryman. Fight your way through the deadly rivers of the underworld, deliver souls, gain the powers of the Gods and lead Persephone to Hades.
 
 - CPI: 0.03€
 - 15,4 min average daily play time per user
@@ -92,9 +95,12 @@ The game has been made in 6 months during my studies at Oulu Game Lab. I was the
 
 ## Vikings: Heroes of Asgard - F2P RPG
 
-In partnership with SuperHit Oy, I have been leading a team of 5 as producer/designer/developer for this hero collection turn based RPG. Inspired by Norse mythology, the player has to rebuild Asgard, collect legendary heroes and fight the Draugr and Jotuns through the Nine Realms around Yggdrasil.
+<p align="center">
 
 <i>Finalist for the Best Student Game of Finland, Bit1 competition, 2021</i>
+</p>
+
+In partnership with SuperHit Oy, I have been leading a team of 5 as producer/designer/developer for this hero collection turn based RPG. Inspired by Norse mythology, the player has to rebuild Asgard, collect legendary heroes and fight the Draugr and Jotuns through the Nine Realms around Yggdrasil.
 
 [Available in the Google Play Store](https://play.google.com/store/apps/details?id=com.uneton.soulodyssey)
 
