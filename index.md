@@ -14,7 +14,7 @@ _Won the Award of the Best Student Game of Finland, Second Place, Bit1 Competiti
 
 [Check the game on itch.io]([https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://aalto-gamedesign.itch.io/they-are-you)).
 
-As lead designer my major contributions consisted of the following:
+As lead designer my major contributions were:
 - game mechanics and character abilities
 - game design document
 - puzzle design
@@ -31,7 +31,7 @@ Massacre at High Castle is a fast paced action game. Possess your enemies to gai
 
 _Won the Award of the Best Game, , Assembly Competition 2022._
 
-As lead designer my major contributions consisted of the following:
+As lead designer my major contributions were:
 - game mechanics and character abilities
 - game design document
 - level design
@@ -47,13 +47,13 @@ Set in the Greek mythology, you control Charon the soul ferryman. Fight your way
 
 _Won the Oulu Game Lab Competition, First Place, Autumn 2021._
 
-– CPI: 0.03€
-– 15,4 min average daily play time per user
-- increased D1 retention rate from 8% to 26% over a month of updates
+- CPI: 0.03€
+- 15,4 min average daily play time per user
+- increased D1 retention rate from 8% to 26% after a month of updates
 
 [Available in the Google Play Store](https://play.google.com/store/apps/details?id=com.uneton.soulodyssey)
 
-As lead designer my major contributions consisted of the following:
+As lead designer my major contributions were:
 - game mechanics and powers
 - game design document
 - game economy and player progression
@@ -70,7 +70,7 @@ In partnership with SuperHit Oy, I have been leading a team of 5 as producer/des
 
 _Finalist in Bit1 competition, 2021_
 
-As lead designer my major contributions consisted of the following:
+As lead designer my major contributions were:
 - game mechanics
 - game design document
 - character statistics and skills
