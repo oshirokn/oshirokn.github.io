@@ -6,7 +6,9 @@
 
 _Won the Award of the Best Student Game of Finland, Second Place, Bit1 Competition 2022._
 
+<p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0RCS__MLQj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 [Check the game on itch.io]([https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://aalto-gamedesign.itch.io/they-are-you)).
 
