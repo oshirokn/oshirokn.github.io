@@ -1,3 +1,12 @@
+# Ken Oshiro
+
+I am a game designer and producer with 3 years of experience, currently studying at Aalto University to obtain a Master's Degree in Game Design and Production.
+I specialize in gameplay, game economy and player progression.
+
+I graduated with a MSc in Economics.
+
+My game projects have won awards in 3 competitions, both for PC and mobile. I strive to create games with original game mechanics and/or feel. 
+
 # Game Projects
 ## They Are You - Puzzle
 
@@ -21,6 +30,8 @@ As lead designer my major contributions were:
 - balancing, iteration on the game mechanics and levels including external testing during events (IGDA meetups)
 - UX design: visual effects to convey the necessary information to the player
 - narrative design: characters, setting and environment
+
+I was also the producer: organizing the tasks, schedule and scope for the team of 8 members.
 
 The game has been made in 5 months during my studies at Aalto University. The team consisted of 3 designers.
 
@@ -63,6 +74,8 @@ As lead designer my major contributions were:
 - iteration on the game mechanics
 - narrative design: environment and feel
 
+I was also the producer: organizing the tasks, schedule and scope for the team of 8 members.
+
 The game has been made in 6 months during my studies at Oulu Game Lab. I was the only designer within the team.
 
 ## Vikings: Heroes of Asgard - F2P RPG
@@ -80,6 +93,8 @@ As lead designer my major contributions were:
 - game economy and progression
 - iteration on the game mechanics
 - narrative design: environment, story, characters and intro cutscene
+
+I was also the producer: organizing the tasks, schedule and scope for the team of 4 members.
 
 The game has been made in 6 months during my studies at Oulu Game Lab. I was the only designer within the team.
 
