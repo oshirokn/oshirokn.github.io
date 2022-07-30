@@ -1,10 +1,10 @@
 # Ken Oshiro
 
-I am a game designer and producer with 3 years of experience, currently studying at Aalto University in Game Design and Production. My formal education is in Economics (MSc).
+I am a **game designer and producer** with **3 years of experience**, currently studying at Aalto University in Game Design and Production. My background is in **Economics (MSc)**.
 
-I specialize in gameplay, game economy and player progression. 
+I specialize in **gameplay, game economy and player progression** .
 
-My game projects have won awards in 3 competitions, both for PC and mobile. I strive to create games with original game mechanics and/or feel. 
+My game projects have **won awards in 3 competitions**, both for PC and mobile.
 
 # Game Projects
 ## They Are You - Puzzle
@@ -45,6 +45,7 @@ _Won the Award of the Best Game, , Assembly Competition 2022._
 
 As lead designer my major contributions were:
 - game mechanics and character abilities
+- combat system
 - game design document
 - level design
 - iteration on the game mechanics, balancing
