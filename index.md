@@ -2,7 +2,7 @@
 
 ### They Are You
 
-![TAY_Image]([src](https://img.itch.zone/aW1nLzg5NDE2ODcucG5n/original/43cbZe.png))
+![TAY_Image](https://img.itch.zone/aW1nLzg5NDE2ODcucG5n/original/43cbZe.png)
 
 _Won the Award of the Best Student Game of Finland, Second Place, Bit1 Competition 2022._
 
