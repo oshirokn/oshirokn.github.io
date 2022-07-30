@@ -33,7 +33,7 @@ As lead designer my major contributions were:
 
 I was also the producer: organizing the tasks, schedule and scope for the team of 8 members.
 
-The game has been made in 5 months during my studies at Aalto University. The team consisted of 3 designers.
+The game has been made in 5 months during my studies at Aalto University. The team consisted of 3 designers including myself.
 
 ## Massacre at High Castle - Action
 
