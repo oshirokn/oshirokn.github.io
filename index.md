@@ -1,15 +1,24 @@
-## Welcome to GitHub Pages
+## Game Design Portfolio
 
-You can use the [editor on GitHub](https://github.com/oshirokn/oshirokn.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### They Are You
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+_Won the Award of the Best Student Game of Finland, Second Place, Bit1 Competition 2022._
 
-### Markdown
+[Check the game on itch.io]([https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://aalto-gamedesign.itch.io/they-are-you)).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+``They Are You is a puzzle/action game where you become who you kill. Possess your enemies and use their unique abilities to brave the dangers of the Tower. 
+Plan your moves carefully, each mistake is fatal! Who will you kill first? Who will you become?``
 
-```markdown
-Syntax highlighted code block
+Tech: Unity HDRP
+
+As lead designer my major contributions consisted of the following:
+- devised the game mechanics and character abilities
+- wrote the game design document
+- crafted puzzle designs on a whiteboard
+- implemented levels inside Unity
+- iterated on the game mechanics and puzzles, including testing during external events (IGDA meetups)
+- implemented the visual effects to convey the necessary information to the player (UX design)
+- deciding the narrative design and consistency between levels
 
 # Header 1
 ## Header 2
@@ -26,7 +35,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+For more details see 
 
 ### Jekyll Themes
 
