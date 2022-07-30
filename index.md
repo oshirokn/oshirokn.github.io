@@ -68,7 +68,7 @@ The game has been made in 6 months during my studies at Oulu Game Lab. I was the
 
 In partnership with SuperHit Oy, I have been leading a team of 5 as producer/designer/developer for this hero collection turn based RPG. Inspired by Norse mythology, the player has to rebuild Asgard, collect legendary heroes and fight the Draugr and Jotuns through the Nine Realms around Yggdrasil.
 
-_Finalist in Bit1 competition, 2021_
+_Finalist for the Best Student Game of Finland, Bit1 competition, 2021_
 
 As lead designer my major contributions were:
 - game mechanics
