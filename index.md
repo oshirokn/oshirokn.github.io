@@ -6,6 +6,8 @@
 
 _Won the Award of the Best Student Game of Finland, Second Place, Bit1 Competition 2022._
 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=0RCS__MLQj4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+
 [Check the game on itch.io]([https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://aalto-gamedesign.itch.io/they-are-you)).
 
 ``They Are You is a puzzle/action game where you become who you kill. Possess your enemies and use their unique abilities to brave the dangers of the Tower. 
