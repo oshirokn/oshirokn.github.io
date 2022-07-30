@@ -2,6 +2,8 @@
 
 ### They Are You
 
+![TAY_Image]([src](https://img.itch.zone/aW1nLzg5NDE2ODcucG5n/original/43cbZe.png))
+
 _Won the Award of the Best Student Game of Finland, Second Place, Bit1 Competition 2022._
 
 [Check the game on itch.io]([https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://aalto-gamedesign.itch.io/they-are-you)).
@@ -32,7 +34,7 @@ As lead designer my major contributions consisted of the following:
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and 
 ```
 
 For more details see 
