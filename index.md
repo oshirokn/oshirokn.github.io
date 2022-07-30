@@ -2,7 +2,7 @@
 
 ### They Are You
 
-![TAY_Image](https://img.itch.zone/aW1nLzg5NDE2ODcucG5n/original/43cbZe.png)
+<a href="url"><img src="(https://img.itch.zone/aW1nLzg5NDE2ODcucG5n/original/43cbZe.png" align="center" height="48"></a>
 _Won the Award of the Best Student Game of Finland, Second Place, Bit1 Competition 2022._
 
 <p align="center">
@@ -17,13 +17,13 @@ Plan your moves carefully, each mistake is fatal! Who will you kill first? Who w
 Tech: Unity HDRP
 
 As lead designer my major contributions consisted of the following:
-- devised the game mechanics and character abilities
-- wrote the game design document
-- crafted puzzle designs on a whiteboard
+- game mechanics and character abilities
+- game design document
+- puzzle designs
 - implemented levels inside Unity
-- iterated on the game mechanics and puzzles, including testing during external events (IGDA meetups)
-- implemented the visual effects to convey the necessary information to the player (UX design)
-- deciding the narrative design and consistency between levels
+- iteration on the game mechanics and puzzles, including testing during external events (IGDA meetups)
+- UX design, visual effects to convey the necessary information to the player
+- narrative design and consistency across levels
 
 # Header 1
 ## Header 2
