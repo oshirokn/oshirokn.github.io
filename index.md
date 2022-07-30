@@ -6,7 +6,11 @@ I specialize in **gameplay, game economy and player progression** .
 
 My game projects have **won awards in 3 competitions**, both for PC and mobile.
 
+
+
 # Game Projects
+
+
 ## They Are You - Puzzle
 
 <a href="url"><img src="(https://img.itch.zone/aW1nLzg5NDE2ODcucG5n/original/43cbZe.png" align="center" height="48"></a>
@@ -36,6 +40,8 @@ I was also the producer: organizing the tasks, schedule and scope for the team o
 
 The game has been made in 5 months during my studies at Aalto University. The team consisted of 3 designers including myself.
 
+
+
 ## Massacre at High Castle - Action
 
 Massacre at High Castle is a fast paced action game. Possess your enemies to gain their strengths and use it to your advantage. As you rampage through the castle, destroy your environment and kill enemies to unlock your power. Dance around enemies by dashing and unleash combos to annihilate your foes.
@@ -54,6 +60,8 @@ As lead designer my major contributions were:
 - narrative design: story, environment, characters and intro cutscene
 
 The game has been made in 6 weeks during my studies at Kajaani University of Applied Sciences. I was the only designer within the team.
+
+
 
 ## Soul Odyssey - F2P Action
 
@@ -79,6 +87,8 @@ As lead designer my major contributions were:
 I was also the producer: organizing the tasks, schedule and scope for the team of 8 members.
 
 The game has been made in 6 months during my studies at Oulu Game Lab. I was the only designer within the team.
+
+
 
 ## Vikings: Heroes of Asgard - F2P RPG
 
