@@ -6,7 +6,7 @@ I am a **game designer and producer with 3 years of experience**, currently stud
 
 My game projects have **won awards in 3 competitions**, both for PC and mobile.
 
-
+</p>
 
 # Game Projects
 
@@ -23,7 +23,7 @@ They Are You is a puzzle/action game where you become who you kill. Possess your
 Plan your moves carefully, each mistake is fatal! Who will you kill first? Who will you become?
   
 
-[Game available on itch.io](https://aalto-gamedesign.itch.io/they-are-you)
+[Available on itch.io](https://aalto-gamedesign.itch.io/they-are-you)
 
 As lead designer my major contributions were:
 - game mechanics and character abilities
@@ -48,7 +48,7 @@ The game has been made in 5 months during my studies at Aalto University. The te
 
 Massacre at High Castle is a fast paced, chaotic action game. Possess your enemies to gain their strengths and use it to your advantage. As you rampage through the castle, destroy your environment and kill enemies to unlock your power. Dance around enemies by dashing and unleash combos to annihilate your foes.
 
-[Game available on itch.io]()
+[Available on itch.io]()
 
 As lead designer my major contributions were:
 - game mechanics and character abilities
