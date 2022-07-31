@@ -46,7 +46,7 @@ The game has been made in 5 months during my studies at Aalto University. The te
 <i>Won the Award of the Best Game, , Assembly Competition 2022.</i>
 </p>
 
-Massacre at High Castle is a fast paced action game. Possess your enemies to gain their strengths and use it to your advantage. As you rampage through the castle, destroy your environment and kill enemies to unlock your power. Dance around enemies by dashing and unleash combos to annihilate your foes.
+Massacre at High Castle is a fast paced, chaotic action game. Possess your enemies to gain their strengths and use it to your advantage. As you rampage through the castle, destroy your environment and kill enemies to unlock your power. Dance around enemies by dashing and unleash combos to annihilate your foes.
 
 [Game available on itch.io]()
 
@@ -96,7 +96,7 @@ The game has been made in 6 months during my studies at Oulu Game Lab. I was the
 ## Vikings: Heroes of Asgard - Mobile F2P RPG
 
 <p align="center">
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2RIqAhZsAHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <i>Finalist for the Best Student Game of Finland, Bit1 competition, 2021</i>
 </p>
 
