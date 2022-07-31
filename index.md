@@ -63,7 +63,7 @@ The game has been made in 6 weeks during my studies at Kajaani University of App
 
 
 
-## Soul Odyssey - F2P Action
+## Soul Odyssey - Mobile F2P Action
 
 <p align="center">
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/Dor3koGw92I" title="Soul Odyssey Game Trailer #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -93,7 +93,7 @@ The game has been made in 6 months during my studies at Oulu Game Lab. I was the
 
 
 
-## Vikings: Heroes of Asgard - F2P RPG
+## Vikings: Heroes of Asgard - Mobile F2P RPG
 
 <p align="center">
 
