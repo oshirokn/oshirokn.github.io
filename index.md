@@ -6,8 +6,6 @@ I am a **game designer and producer with 2 years of experience**, currently stud
 
 My game projects have **won awards in 3 competitions**, both for PC and mobile.
 
-</p>
-
 # Game Projects
 
 
@@ -43,7 +41,7 @@ The game has been made in 5 months during my studies at Aalto University. The te
 ## Massacre at High Castle - Action
 <p align="center">
   
-<i>Won the Award of the Best Game, , Assembly Competition 2022.</i>
+<i>Won the second place in the Assembly Competition 2022.</i>
 </p>
 
 Massacre at High Castle is a fast paced, chaotic action game. Possess your enemies to gain their strengths and use it to your advantage. As you rampage through the castle, destroy your environment and kill enemies to unlock your power. Dance around enemies by dashing and unleash combos to annihilate your foes.
@@ -67,7 +65,7 @@ The game has been made in 6 weeks during my studies at Kajaani University of App
 
 <p align="center">
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/Dor3koGw92I" title="Soul Odyssey Game Trailer #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<i>Won the Oulu Game Lab Competition, First Place, Autumn 2021.</i>
+<i>Won the first place in the Oulu Game Lab Competition Autumn 2021.</i>
 </p>
 
 Set in the Greek mythology, you control Charon the soul ferryman. Fight your way through the deadly rivers of the underworld, deliver souls, gain the powers of the Gods and lead Persephone to Hades.
