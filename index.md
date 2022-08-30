@@ -100,7 +100,7 @@ The game has been made in 6 months during my studies at Oulu Game Lab. I was the
 
 In partnership with SuperHit Oy, I have been leading a team of 5 as producer/designer/developer for this hero collection turn based RPG. Inspired by Norse mythology, the player has to rebuild Asgard, collect legendary heroes and fight the Draugr and Jotuns through the Nine Realms around Yggdrasil.
 
-[Available in the Google Play Store](https://play.google.com/store/apps/details?id=com.uneton.soulodyssey)
+[Available in the Google Play Store]([https://play.google.com/store/apps/details?id=com.uneton.soulodyssey](https://play.google.com/store/apps/details?id=com.Uneton.VikingsHeroes&hl=en_US&gl=US))
 
 As lead designer my major contributions were:
 - game mechanics
