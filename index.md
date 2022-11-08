@@ -2,7 +2,7 @@
 
 I am a **game designer and producer with 2 years of experience**, currently studying at Aalto University in Game Design and Production (MA). **My background is in Economics (MSc)**.
 
-**I specialize in gameplay, game economy and player progression** .
+**I specialize in systems, game economy and player progression** .
 
 My game projects have **won awards in 3 competitions**, both for PC and mobile.
 
