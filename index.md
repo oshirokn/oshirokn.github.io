@@ -1,6 +1,6 @@
 # Ken Oshiro
 
-I am a **game designer and producer with 2 years of experience**, currently studying at Aalto University in Game Design and Production (MA). **My background is in Economics (MSc)**.
+I am a **game designer with 2 years of experience**, currently studying at Aalto University in Game Design and Production (MA). **My background is in Economics (MSc)**.
 
 **I specialize in systems, game economy and player progression** .
 
