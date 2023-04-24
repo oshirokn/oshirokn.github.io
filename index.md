@@ -6,8 +6,8 @@
 
 <p align="center">
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/Dor3koGw92I" title="Soul Odyssey Game Trailer #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<i>Won the first place in the Oulu Game Lab Competition Autumn 2021.</i>
-</p>
+
+[Available in the Google Play Store](https://play.google.com/store/apps/details?id=com.uneton.soulodyssey)
 
 Set in the Greek mythology, you control Charon the soul ferryman. Fight your way through the deadly rivers of the underworld, deliver souls, gain the powers of the Gods and lead Persephone to Hades.
 
@@ -15,9 +15,9 @@ Set in the Greek mythology, you control Charon the soul ferryman. Fight your way
 - 15,4 min average daily play time per user.
 - increased D1 retention rate from 8% to 26% after a month of updates.
 
-[Available in the Google Play Store](https://play.google.com/store/apps/details?id=com.uneton.soulodyssey)
 
 As lead designer my major contributions were:
+- overall vision of the game
 - game mechanics and spells.
 - game economy and player progression.
 - level design.
@@ -45,36 +45,55 @@ The monster spawn rate, type and stats change depending on the level. Every leve
 In terms of user experience, the buttons are positioned to be easy to use for both hands.
 
 
-
-
 ## They Are You - Puzzle
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0RCS__MLQj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
-<i>Won the Award of the Best Student Game of Finland, Second Place, Bit1 Competition 2022.</i>
-</p>
+[Available on itch.io](https://aalto-gamedesign.itch.io/they-are-you)
   
 They Are You is a puzzle/action game where you become who you kill. Possess your enemies and use their unique abilities to brave the dangers of the Tower. 
 Plan your moves carefully, each mistake is fatal! Who will you kill first? Who will you become?
-  
-
-[Available on itch.io](https://aalto-gamedesign.itch.io/they-are-you)
 
 As lead designer my major contributions were:
-- game mechanics and character abilities
-- game design document
-- puzzle design
-- level design inside Unity
-- balancing, iteration on the game mechanics and levels including external testing during events (IGDA meetups)
-- UX design: visual effects to convey the necessary information to the player
-- narrative design: characters, setting and environment
-
-I was also the producer: organizing the tasks, schedule and scope for the team of 8 members.
+- overall vision of the game.
+- game mechanics and character abilities.
+- puzzle design.
+- level design inside Unity.
+- balancing, iteration on the game mechanics and levels. We regularly organized external playtesting (for ex at IGDA meetups).
+- UX design: visual effects to convey the necessary information to the player.
 
 The game has been made in 5 months during my studies at Aalto University. The team consisted of 3 designers including myself.
 
+### Puzzle Design Example
+  
+![TAY Puzzle 0](/assets/tay0.png)
+ 
+The player begins as an undead at 1). The goal of the player is to go through the corridor and reach the door at the top left. 
+The eye at the left of A) acts as a camera alarm. If it spots the player, it attracts all enemies in the area, resulting in a player's death. Instead, the player has to go through the corridor on the right. However, a ranged enemy (R) guards the way and will kill the player if he decides to rush in.
+  
+The undead has a melee attack (M), whereas the octopus has a ranged attack. The ranged attack has a limited range and needs time to charge before being able to shoot. 
+ All characters die in one hit.
+  
 
+  
+  
+ ![TAY Puzzle 1](/assets/TAY1.png) 
+ 
+- The first winning strategy starts by killing the archer from behind in the backroom at 2). 
+- The player, being an archer, can then shoot the undead at 3. Shooting the enemy archer first is a losing strategy, as the undead 3) will kill the player after it becomes the archer. There is no time to shoot the undead before being killed.
+- The player is now the undead 3) and he has to run to take cover behind the tables. He can progress to the next table after the enemy archer wastes his shot, then kill the archer 4). 
+- The player can then shoot the eye and proceed to the door.
+  
+ ![TAY Puzzle 2](/assets/TAY2.png) 
+ 
+- The second winning strategy relies on getting the aggro on the undead 2). The player pulls back inside the corridor, then kills it safely from the enemy archer. 
+- The player can then kill the archer from behind in the backroom at 3).
+- The player can safely shoot the enemy archer at 4). There is no undead to kill the player.
+- The player can then shoot the eye and proceed to the door.
+  
+  Solving this kind of puzzles may requires many tries.
+  The main difficulty from a design perspective is to make the player understand the puzzleness of it. It is not an action game, the player can not win by having better reflexes. Match-ups results should be obvious so the player can plan ahead.
 
 ## Massacre at High Castle - Action
 <p align="center">
@@ -87,19 +106,14 @@ Massacre at High Castle is a fast paced, chaotic action game. Possess your enemi
 [Available on itch.io]()
 
 As lead designer my major contributions were:
-- game mechanics and character abilities
-- combat system
-- game design document
-- level design
-- iteration on the game mechanics, balancing
-- UX design: visual effects to convey the necessary information to the player
-- narrative design: story, environment, characters and intro cutscene
+- game mechanics and character abilities.
+- combat system.
+- level design.
+- iteration on the game mechanics, balancing.
+- UX design: visual effects to convey the necessary information to the player.
+- narrative design: story, environment, characters and intro cutscene.
 
 The game has been made in 6 weeks during my studies at Kajaani University of Applied Sciences. I was the only designer within the team.
-
-
-
-
 
 
 
@@ -115,11 +129,11 @@ In partnership with SuperHit Oy, I have been leading a team of 5 as producer/des
 [Available in the Google Play Store](https://play.google.com/store/apps/details?id=com.Uneton.VikingsHeroes&hl=en_US&gl=US)
 
 As lead designer my major contributions were:
-- game mechanics
-- game design document
-- character statistics and skills
-- game economy and progression
-- iteration on the game mechanics
-- narrative design: environment, story, characters and intro cutscene
+- game mechanics.
+- game design document.
+- character statistics and skills.
+- game economy and progression.
+- iteration on the game mechanics.
+- narrative design: environment, story, characters and intro cutscene.
 
 The game has been made in 6 months during my studies at Oulu Game Lab. I was the only designer within the team.
