@@ -31,17 +31,16 @@ The game has been made in 6 months during my studies at Oulu Game Lab. I was the
 
 The player attacks enemies by activating spells. They have a specific trajectory and damage enemies in their area of effect.
 
-Enemies have different spawn points and attack patterns. </p>
-The player must use the skills targeting the right area at the appropriate time, taking into account their cooldown, damage and speed.</p>
+Enemies have different spawn points and attack patterns.
+The player must use the skills targeting the right area at the appropriate time, taking into account their cooldown, damage and speed.
 For instance, the lightning bolt can hit any type of enemy in a vertical line. This skill can be powerful due to its versatility, but difficult to use compared to the flaming bolt going in a straight line.
 
 ![SO Combat 2](/assets/so2.png)
 
-Enemies have different movement, attack patterns and hit points, requiring the player to  think strategically. </p>
-More advanced spells play further with the concept of space and time. The Arrows of Artemis can hit any enemy in a diagonal pattern, but arrows have to spend a second flying to their area of effect. Coupled with a long cooldown, they can be extremely powerful but it is also rather easy to miss. </p>
+Enemies have different movement, attack patterns and hit points, requiring the player to  think strategically. 
+More advanced spells play further with the concept of space and time. The Arrows of Artemis can hit any enemy in a diagonal pattern, but arrows have to spend a second flying to their area of effect. Coupled with a long cooldown, they can be extremely powerful but it is also rather easy to miss.
 
-The monster spawn rate, type and stats change depending on the level. Every level introduces a new type of enemy and mechanic. <p>
-
+The monster spawn rate, type and stats change depending on the level. Every level introduces a new type of enemy and mechanic. 
 In terms of user experience, the buttons are positioned to be easy to use for both hands.
 
 
