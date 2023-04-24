@@ -1,12 +1,49 @@
 # Ken Oshiro
 
-I am a **game designer with 2 years of experience**, currently studying at Aalto University in Game Design and Production (MA). **My background is in Economics (MSc)**.
+# Portfolio
 
-**I specialize in systems, game economy and player progression** .
+## Soul Odyssey - Mobile F2P Action
 
-My game projects have **won awards in 3 competitions**, both for PC and mobile.
+<p align="center">
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/Dor3koGw92I" title="Soul Odyssey Game Trailer #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<i>Won the first place in the Oulu Game Lab Competition Autumn 2021.</i>
+</p>
 
-# Game Projects
+Set in the Greek mythology, you control Charon the soul ferryman. Fight your way through the deadly rivers of the underworld, deliver souls, gain the powers of the Gods and lead Persephone to Hades.
+
+- CPI: 0.03€
+- 15,4 min average daily play time per user
+- increased D1 retention rate from 8% to 26% after a month of updates
+
+[Available in the Google Play Store](https://play.google.com/store/apps/details?id=com.uneton.soulodyssey)
+
+As lead designer my major contributions were:
+- game mechanics and spells
+- game economy and player progression
+- level design
+- balancing. I wrote a script that adjust the difficulty depending on how well the player is doing, among other factors.
+
+The game has been made in 6 months during my studies at Oulu Game Lab. I was the only designer within the team.
+
+### Combat Design Example
+
+![SO Combat 1](/assets/so1.png)
+
+The player attacks enemies by activating spells. They have a specific trajectory, damaging enemies in their area of effect.
+
+Enemies have different spawn points and attack patterns. 
+The player must use the skills targeting the right area at the appropriate time, taking into account their cooldown, damage and speed.
+For instance, the lightning bolt can hit any type of enemy in a vertical line. This skill can be powerful due to its versatility, but difficult to use compared to the flaming bolt going in a straight line.
+
+![SO Combat 2](/assets/so2.png)
+
+Enemies have different movement, attack patterns and hit points, requiring the player to 
+think strategically. The monster spawn rate, type and stats change depending on the level.
+More advanced spells play further with the concept of space and time. The Arrows of Artemis can hit any enemy in a diagonal pattern, but arrows have to spend a second flying to their area of effect. Coupled with a long cooldown, they can be extremely powerful but it is also rather easy to miss.
+
+In terms of user experience, the buttons are positioned to be easy to use for both hands.
+
+
 
 
 ## They Are You - Puzzle
@@ -61,33 +98,7 @@ The game has been made in 6 weeks during my studies at Kajaani University of App
 
 
 
-## Soul Odyssey - Mobile F2P Action
 
-<p align="center">
-<iframe width="560" height="315"  src="https://www.youtube.com/embed/Dor3koGw92I" title="Soul Odyssey Game Trailer #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<i>Won the first place in the Oulu Game Lab Competition Autumn 2021.</i>
-</p>
-
-Set in the Greek mythology, you control Charon the soul ferryman. Fight your way through the deadly rivers of the underworld, deliver souls, gain the powers of the Gods and lead Persephone to Hades.
-
-- CPI: 0.03€
-- 15,4 min average daily play time per user
-- increased D1 retention rate from 8% to 26% after a month of updates
-
-[Available in the Google Play Store](https://play.google.com/store/apps/details?id=com.uneton.soulodyssey)
-
-As lead designer my major contributions were:
-- game mechanics and powers
-- game design document
-- game economy and player progression
-- level design
-- balancing. I wrote a script that adjust the difficulty depending on how well the player is doing, among other factors.
-- iteration on the game mechanics
-- narrative design: environment and feel
-
-I was also the producer: organizing the tasks, schedule and scope for the team of 8 members.
-
-The game has been made in 6 months during my studies at Oulu Game Lab. I was the only designer within the team.
 
 
 
