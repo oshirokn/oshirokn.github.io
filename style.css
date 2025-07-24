@@ -76,8 +76,9 @@ body {
 
 .cover {
   width: 100%;
-  height: auto;
-  max-width: 100%;
+  height: 400px; /* force equal height */
+  object-fit: cover; /* crop to fill without distortion */
+  margin-bottom: 1.5rem; /* more space before description */
 }
 
 .book-card h2 {
