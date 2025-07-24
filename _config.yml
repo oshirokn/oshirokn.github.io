@@ -1,10 +1,4 @@
-title: Ken Oshiro Portfolio
-description: Game Designer
-remote_theme: pages-themes/minimal@v0.2.0
+title: 
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 paginate: 5
 url: "https://oshirokn.github.io/"
-
-
-markdown: rdiscount
