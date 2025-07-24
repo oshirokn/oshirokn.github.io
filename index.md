@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Ledger of the Damned</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="background:#111;color:#eee;font-family:serif;padding:3rem">
-  <h1>The Ledger of the Damned</h1>
-  <p>This archive has been opened.</p>
+<body>
+  <div class="background"></div>
+  <main class="container">
+    <h1 class="title">The Ledger of the Damned</h1>
+    <p class="subtitle">Records of survival, failure, and justified atrocity.</p>
+
+    <section class="book-section">
+      <h2>Fantasy – Epic Tragedy</h2>
+      <p>In empires powered by soul magic, there are no gods, only myths forged to sanctify murder.<br><br>
+      Elysia comes of age untouched but owned, trained as ornament and remembrance.  
+      Lucius, a fading mage, and Eris, his silent protégé, must kill the innocent to escape the fate carved for them—or complete it.<br><br>
+      A curse has been prepared. Casting it will end everything that still remembers.</p>
+    </section>
+
+    <section class="book-section">
+      <h2>Sci-Fi – Political Fiction</h2>
+      <p>Earth is gone, burned from the sky.<br><br>
+      What remains of mankind lives underground, watched by its own sins.  
+      The stars above are silent. No one knows if silence means peace, or extinction.<br><br>
+      Ashlin, a tunneler—“rock bitch,” in her own words—endures the Siege Directive’s doctrine of endless preparation.  
+      But how do you defy extinction, when survival was the first mistake?<br><br>
+      Glory to Mankind.</p>
+    </section>
+
+    <section class="book-section">
+      <h2>War – Speculative Realism</h2>
+      <p>A genocidal war burns in the forgotten borderlands of the Veligrad Federation.  
+      Artem, 19, conscripted and already broken, is sent to the siege of the separatist capital—where ideals go to die.<br><br>
+      Across the mountains, the neutral Republic of Seleneraad mobilizes its reserves. Not to intervene.  
+      Just to keep the refugees out.</p>
+    </section>
+  </main>
 </body>
 </html>
