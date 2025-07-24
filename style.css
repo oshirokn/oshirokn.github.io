@@ -48,19 +48,16 @@ body {
 
 .book-grid {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap; /* prevent wrapping */
+  justify-content: space-between;
   gap: 2rem;
+  max-width: 100%;
+  overflow-x: auto; /* allows scroll on smaller screens */
 }
 
 .book-card {
-  flex: 1 1 300px;
-  max-width: 320px;
-  background-color: rgba(255, 255, 255, 0.02);
-  padding: 1.5rem;
-  border-radius: 6px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  transition: transform 0.2s ease-in-out;
+  flex: 1 1 30%;
+  max-width: 30%;
 }
 
 .book-card:hover {
