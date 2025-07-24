@@ -11,15 +11,18 @@
     <h1 class="title">The Ledger of the Damned</h1>
     <p class="subtitle">Records of survival, failure, and justified atrocity.</p>
 
-    <section class="book-section">
+<div class="book-grid">
+  <div class="book-card">
+    <img src="images/cover_elegy.png" alt="An Elegy to the Immortals" class="cover">
       <h2>Fantasy – Epic Tragedy</h2>
       <p>In empires powered by soul magic, there are no gods, only myths forged to sanctify murder.<br><br>
       Elysia comes of age untouched but owned, trained as ornament and remembrance.  
       Lucius, a fading mage, and Eris, his silent protégé, must kill the innocent to escape the fate carved for them—or complete it.<br><br>
       A curse has been prepared. Casting it will end everything that still remembers.</p>
-    </section>
+  </div>
 
-    <section class="book-section">
+  <div class="book-card">
+      <img src="images/cover_glory.png" alt="Glory to Mankind" class="cover">
       <h2>Sci-Fi – Political Fiction</h2>
       <p>Earth is gone, burned from the sky.<br><br>
       What remains of mankind lives underground, watched by its own sins.  
@@ -27,15 +30,19 @@
       Ashlin, a tunneler—“rock bitch,” in her own words—endures the Siege Directive’s doctrine of endless preparation.  
       But how do you defy extinction, when survival was the first mistake?<br><br>
       Glory to Mankind.</p>
-    </section>
+  </div>
 
-    <section class="book-section">
+  <div class="book-card">
+      <img src="images/cover_tragic.png" alt="A Most Tragic Incident" class="cover">
       <h2>War – Speculative Realism</h2>
       <p>A genocidal war burns in the forgotten borderlands of the Veligrad Federation.  
       Artem, 19, conscripted and already broken, is sent to the siege of the separatist capital—where ideals go to die.<br><br>
       Across the mountains, the neutral Republic of Seleneraad mobilizes its reserves. Not to intervene.  
       Just to keep the refugees out.</p>
-    </section>
+  </div>
+ </div>
+
+      
   </main>
 </body>
 </html>
