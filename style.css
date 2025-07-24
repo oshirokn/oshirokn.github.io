@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-family: 'Inter', sans-serif;
-  color: #e0e0e0;
   background-color: #0e0e0e;
+  color: #e0e0e0;
   position: relative;
   min-height: 100vh;
   overflow-x: hidden;
@@ -21,28 +21,27 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('A_digital_abstract_background_image_features_a_dar.png') no-repeat center center;
+  background: url('images/A_digital_abstract_background_image_features_a_dar.png') no-repeat center center;
   background-size: cover;
+  opacity: 0.2;
   z-index: -1;
-  opacity: 0.25;
 }
 
 .container {
-  max-width: 850px;
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 4rem 2rem;
 }
 
 .title {
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 3rem;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .subtitle {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #bbbbbb;
   margin-bottom: 3rem;
 }
@@ -50,19 +49,17 @@ body {
 .book-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
   justify-content: center;
-  margin-bottom: 4rem;
+  gap: 2rem;
 }
 
 .book-card {
+  flex: 1 1 300px;
+  max-width: 320px;
   background-color: rgba(255, 255, 255, 0.02);
   padding: 1.5rem;
   border-radius: 6px;
-  flex: 1 1 280px; /* minimum 280px, scales up */
-  max-width: 300px;
-  text-align: left;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   transition: transform 0.2s ease-in-out;
 }
 
@@ -70,21 +67,21 @@ body {
   transform: scale(1.02);
 }
 
-.book-card h2 {
-  font-size: 1.2rem;
-  color: #e5c07b;
-  margin: 1rem 0 0.5rem;
-}
-
-.book-card p {
-  font-size: 0.95rem;
-  color: #cccccc;
-  line-height: 1.6;
-}
-
 .cover {
   width: 100%;
   height: auto;
   border-radius: 4px;
   margin-bottom: 1rem;
+}
+
+.book-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #e5c07b;
+}
+
+.book-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #d0d0d0;
 }
