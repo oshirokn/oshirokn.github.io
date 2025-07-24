@@ -47,19 +47,44 @@ body {
   margin-bottom: 3rem;
 }
 
-.book-section {
-  margin-bottom: 3rem;
+.book-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 4rem;
 }
 
-.book-section h2 {
-  font-size: 1.6rem;
-  font-weight: 700;
+.book-card {
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 1.5rem;
+  border-radius: 6px;
+  flex: 1 1 280px; /* minimum 280px, scales up */
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.book-card:hover {
+  transform: scale(1.02);
+}
+
+.book-card h2 {
+  font-size: 1.2rem;
   color: #e5c07b;
-  margin-bottom: 1rem;
+  margin: 1rem 0 0.5rem;
 }
 
-.book-section p {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #d0d0d0;
+.book-card p {
+  font-size: 0.95rem;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.cover {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
 }
