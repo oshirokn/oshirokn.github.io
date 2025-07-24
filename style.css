@@ -48,10 +48,9 @@ body {
 
 .book-grid {
   display: flex;
+  flex-wrap: wrap; /* allow wrapping */
   justify-content: space-between;
   gap: 2rem;
-  max-width: 100%;
-  overflow-x: auto; /* allows scroll on smaller screens */
 }
 
 .book-card {
@@ -68,7 +67,6 @@ body {
 .cover {
   width: 100%;
   height: auto;
-  border-radius: 4px;
   margin-bottom: 1rem;
 }
 
@@ -79,8 +77,7 @@ body {
 }
 
 .book-card p {
-  flex-grow: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow: visible;
   white-space: normal;
+  flex-grow: 0;
 }
