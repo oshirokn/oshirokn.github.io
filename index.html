@@ -4,6 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Ledger of the Damned</title>
   <link rel="stylesheet" href="style.css">
+  <script>
+  window.history.scrollRestoration = 'manual';
+  window.addEventListener('load', () => window.scrollTo(0, 0));
+  </script>
 </head>
 <body>
   <main class="container">
@@ -12,34 +16,99 @@
   <p class="subtitle">Records of survival, failure, and justified atrocity.</p>
 <div class="book-grid">
   <div class="book-card">
-    <img src="Images/cover_elegy.jpg" alt="An Elegy to the Immortals" class="cover">
+    <img src="images/cover_elegy.jpg" alt="An Elegy to the Immortals" class="cover">
       <h2>Fantasy – Epic Tragedy</h2>
       <p>In empires powered by soul magic, there are no gods, only myths forged to sanctify murder.<br><br>
-      Elysia comes of age untouched but owned, trained as ornament and remembrance.  
+      Elysia comes of age untouched but owned, trained as ornament and remembrance.<br>
       Lucius, a fading mage, and Eris, his silent protégé, must kill the innocent to escape the fate carved for them—or complete it.<br><br>
       A curse has been prepared. Casting it will end everything that still remembers.</p>
+      <a href="#elegy" class="scroll-button">Read More</a>
   </div>
 
   <div class="book-card">
-      <img src="Images/cover_glory.jpg" alt="Glory to Mankind" class="cover">
+      <img src="images/cover_glory.jpg" alt="Glory to Mankind" class="cover">
       <h2>Sci-Fi – Political Fiction</h2>
       <p>Earth is gone, burned from the sky.<br><br>
-      What remains of mankind lives underground, watched by its own sins.  
+      What remains of mankind lives underground, watched by its own sins.<br><br>
       The stars above are silent. No one knows if silence means peace, or extinction.<br><br>
       Ashlin, a tunneler—“rock bitch,” in her own words—endures the Siege Directive’s doctrine of endless preparation.  
       But how do you defy extinction, when survival was the first mistake?<br><br>
       Glory to Mankind.</p>
+      <a href="#glory" class="scroll-button">Read More</a>
   </div>
 
   <div class="book-card">
-      <img src="Images/cover_tragic.jpg" alt="A Most Tragic Incident" class="cover">
+      <img src="images/cover_tragic.jpg" alt="A Most Tragic Incident" class="cover">
       <h2>War – Speculative Realism</h2>
-      <p>A genocidal war burns in the forgotten borderlands of the Veligrad Federation.  
+      <p>A genocidal war burns in the forgotten borderlands of the Veligrad Federation.<br><br>
       Artem, 19, conscripted and already broken, is sent to the siege of the separatist capital—where ideals go to die.<br><br>
       Across the mountains, the neutral Republic of Seleneraad mobilizes its reserves. Not to intervene.  
       Just to keep the refugees out.</p>
+      <a href="#incident" class="scroll-button">Read More</a>
   </div>
  </div>    
+
+<section id="elegy" class="book-section">
+  <div class="container">
+    <h2 class="book-title">An Elegy to the Immortals</h2>
+
+    <!-- Visual + Extract -->
+    <div class="book-header">
+      <div class="cover-wrapper">
+        <img src="/images/cover_elegy.jpg" alt="An Elegy to the Immortals Cover" class="cover-small"/>
+        <p class="genre">Fantasy — Epic Tragedy</p>
+      </div>
+      <div class="excerpt">
+        <p>“From the towers came the chant, called forth by Wardens and mages, by those who counted hours and named days, whose sacred charge was to rouse Archeon from the embrace of night.<br><br>
+            <em>“Audite Solem surgentem!”</em><br>
+            (Hear the Sun rising!)<br> <br>
+            And from halls and humble chambers, from the depths of Bound houses, the voices rose in answer—roughened by sleep, yet unwavering with familiarity: <br><br>
+            <em>“Ave, Custos Aeternus—ductor noster, largitor noster!”</em><br>
+            (Hail, Eternal Watcher—our guide, our provider!)”<br></p>
+                  </div>
+                </div>
+
+    <!-- Author Note -->
+    <div class="author-note" style="margin-bottom: 2rem;">
+      <h3 style="font-size: 1.2rem; color: #e5c07b; margin-bottom: 1rem;">Author's Note</h3>
+      <p>[Write here a short note on the book’s inspiration, purpose, or meaning. One or two paragraphs.]</p>
+    </div>
+
+    <!-- Praise / Quote -->
+    <div class="praise" style="margin-bottom: 3rem; font-style: italic; text-align: center; color: #bbbbbb;">
+      <p>“[Insert a short piece of praise, self-quote, or thematic summary.]”</p>
+    </div>
+
+    <!-- Mood Image -->
+    <div class="mood-image">
+      <img src="/images/elegy_mood.png" alt="Mood illustration for Elegy" style="width: 100%; max-width: 500px; display: block; margin: 0 auto; border-radius: 6px;" />
+    </div>
+
+    <!-- Buttons -->
+   <div class="download-buttons">
+      <a href="/downloads/An_Elegy_To_The_Immortals_Prologue.pdf" class="download-button">Download Prologue - PDF</a>
+      <a href="/downloads/An Elegy To The Immortals-Prologue.epub" class="download-button">Download Prologue - EPUB</a>
+      <!-- <a href="/Buy/Elegy.html" class="btn" style="display: inline-block; margin: 0.5rem; padding: 0.75rem 1.5rem; background-color: #e5c07b; color: #0e0e0e; text-decoration: none; font-weight: 600; border-radius: 4px;">WIP</a> -->
+    </div>
+
+    <!-- Metadata Footer -->
+    <div class="metadata" style="text-align: center; font-size: 0.9rem; color: #888888;">
+      <p>Word Count: WIP &nbsp;|&nbsp; Content Warnings: [Violence] [Sexual abuse and grooming] [Suicidal ideation and self-harm] &nbsp;|&nbsp; Status: WIP &nbsp;|&nbsp; Series: Book I of the Elegy Cycle</p>
+    </div>
+  </div>
+</section>
+
+<section id="glory" class="book-section">
+  <h2>Glory to Mankind</h2>
+  <p>...</p>
+</section>
+
+
+<section id="incident" class="book-section">
+  <h2>A Most Tragic Incident at the Periphery</h2>
+  <p>...</p>
+</section>
+
 </main>
 </body>
 </html>

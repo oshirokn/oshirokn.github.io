@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
@@ -15,26 +19,31 @@
   text-transform: uppercase;
 }
 
-
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: #0e0e0e;
-  color: #e0e0e0;
-  position: relative;
-  min-height: 100vh;
-  overflow-x: hidden;
-}
-
-.background {
+body::before {
+  content: "";
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
-  background: url('images/A_digital_abstract_background_image_features_a_dar.png') no-repeat center center;
-  background-size: cover;
-  opacity: 0.2;
+  width: 100%;
+  background: url('/Images/background_image.png') center center / cover no-repeat;
+  opacity: 0.5;
+  filter: contrast(110%) brightness(90%);
   z-index: -1;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #0e0e0e;
+  color: #e5e5e5;
+  font-size: 1rem;
+  position: relative;
+  letter-spacing: 0.2rem;
+  line-height: 1.65;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .container {
@@ -51,34 +60,38 @@ body {
 
 .subtitle {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #bbbbbb;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 .book-grid {
   display: flex;
   flex-wrap: wrap; /* allow wrapping */
-  justify-content: space-between;
-  gap: 2rem;
+  justify-content: center;
+  padding-bottom: 2rem;
+  gap: 3rem 4rem;
 }
 
 .book-card {
-  flex: 1 1 30%;
+  flex: 1 1 300px;
   display: flex;
   flex-direction: column;
-  min-width: 0; /* allows child content to wrap inside */
-}
-
-.book-card:hover {
-  transform: scale(1.02);
+  margin-bottom: 4rem;
 }
 
 .cover {
   width: 100%;
-  height: 400px; /* force equal height */
+  height: 600px; /* force equal height */
   object-fit: cover; /* crop to fill without distortion */
-  margin-bottom: 1.5rem; /* more space before description */
+  margin-bottom: 3rem; /* more space before description */
+}
+
+.cover:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+  will-change: transform;
+  transform-origin: center;
 }
 
 .book-card h2 {
@@ -87,9 +100,105 @@ body {
   color: #e5c07b;
 }
 
+.book-card h2, .book-card p {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
 .book-card p {
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
   flex-grow: 0;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #e5e5e5;
+  margin-top: 1.5rem;
+  max-width: 35ch;
+}
+
+@media (max-width: 768px) {
+  .book-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+    .title {
+    font-size: 3rem;
+  }
+}
+
+.scroll-button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: transparent;
+  border: 1px solid #e5c07b;
+  color: #e5c07b;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  align-self: start;
+  letter-spacing: 0.1rem;
+}
+
+.scroll-button:hover {
+  background-color: #e5c07b;
+  color: #0e0e0e;
+}
+
+.book-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* was center — causes excessive spacing above text */
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  margin-top: 3rem; /* optionally reduce this further if needed */
+}
+
+.cover-wrapper {
+  flex: 0 0 300px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.cover-small {
+  max-height: 500px;
+  object-fit: contain; /* Full image visible */
+}
+
+.excerpt {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #dcdcdc;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  margin-top: 3rem; /* optionally reduce this further if needed */
+}
+
+.download-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.download-button {
+  display: inline-block; 
+  justify-content: center;
+  margin: 0.5rem; 
+  padding: 0.75rem 1.5rem; 
+  background-color: #e5c07b; 
+  color: #0e0e0e; 
+  text-decoration: none; 
+  font-weight: 600; 
+  border-radius: 4px;
+}
+
+.download-button:hover {
+  background-color: #444;
 }
