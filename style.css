@@ -82,8 +82,8 @@ body {
 
 .cover {
   width: 100%;
-  height: 600px; /* force equal height */
-  object-fit: cover; /* crop to fill without distortion */
+  height: 500px; /* force equal height */
+  object-fit: contain; 
   margin-bottom: 3rem; /* more space before description */
 }
 
