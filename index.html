@@ -1,115 +1,818 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Ledger of the Damned</title>
+  <title>Records of the Fallen</title>
   <link rel="stylesheet" href="style.css">
-  <script>
-  window.history.scrollRestoration = 'manual';
-  window.addEventListener('load', () => window.scrollTo(0, 0));
-  </script>
 </head>
 <body>
-  <main class="container">
-  <p class="author-name">KEN OSHIRO</p>
-  <h1 class="title">The Ledger of the Damned</h1>
-  <p class="subtitle">Records of survival, failure, and justified atrocity.</p>
-<div class="book-grid">
-  <div class="book-card">
-    <img src="images/cover_elegy.jpg" alt="An Elegy to the Immortals" class="cover">
-      <h2>Dark Fantasy – Epic Tragedy</h2>
-      <p>In empires powered by soul magic, there are no gods, only myths forged to sanctify murder.<br><br>
-      Elysia comes of age untouched but owned, trained as ornament and remembrance.<br>
-      Lucius, a fading mage, and Eris, his silent protégé, must kill the innocent to escape the fate carved for them—or complete it.<br><br>
-      A curse has been prepared. Casting it will end everything that still remembers.</p>
-      <a href="#elegy" class="scroll-button">Read More</a>
-  </div>
+ <nav class="nav-bar">
+ <div class="nav-container">
+    <div class="authority-section">
+        <div class="authority-logo">
+            <img src="images/logo_srd.png" alt="Earth Federal Authority - Simulation Recovery Division" class="srd-logo">
+        </div>
+        <div class="authority-text">
+            <span class="org-name">EARTH FEDERAL AUTHORITY</span>
+            <span class="division-name">Simulation Recovery Division</span>
+        </div>
+    </div>
+    
+    <span class="nav-logo-split" onclick="showPage('home')">RECORDS OF THE FALLEN</span>
+    
+    <ul class="nav-links">
+        <li><a onclick="showPage('home')" class="active" id="nav-home">Archive Index</a></li>
+        <li><a onclick="showPage('archivist')" id="nav-archivist">Archivist Profile</a></li>
+        <li><a onclick="showPage('transmission')" id="nav-transmission">Transmission Channels</a></li>
+    </ul>
+ </div>
+</nav>
 
-  <div class="book-card">
-      <img src="images/cover_glory.jpg" alt="Glory to Mankind" class="cover">
-      <h2>Hard Science-Fiction - Political Thriller</h2>
-      <p>Earth is gone, burned from the sky.<br><br>
-      What remains of mankind lives underground, watched by its own sins.<br><br>
-      The stars above are silent. No one knows if silence means peace, or extinction.<br><br>
-      Ashlin, a tunneler—“rock bitch”, in her own words—endures the Starsiege Directive of endless preparation.  
-      But how do you defy extinction, when survival was the first mistake?<br><br>
-      Glory to Mankind.</p>
-      <a href="#glory" class="scroll-button">Read More</a>
-  </div>
-
-  <div class="book-card">
-      <img src="images/cover_tragic.jpg" alt="A Most Tragic Incident" class="cover">
-      <h2>War – Speculative Realism</h2>
-      <p>A genocidal war burns in the forgotten borderlands of the Veligrad Federation.<br><br>
-      Artem, 19, conscripted and already broken, is sent to the siege of the separatist capital—where ideals go to die.<br><br>
-      Across the mountains, the neutral Republic of Seleneraad mobilizes its reserves. Not to intervene.  
-      Just to keep the refugees out.</p>
-      <a href="#incident" class="scroll-button">Read More</a>
-  </div>
- </div>    
-
-<section id="elegy" class="book-section">
-  <div class="container">
-    <h2 class="book-title">An Elegy to the Immortals</h2>
-
-    <!-- Visual + Extract -->
-    <div class="book-header">
-      <div class="cover-wrapper">
-        <img src="/images/cover_elegy.jpg" alt="An Elegy to the Immortals Cover" class="cover-small"/>
-        <p class="genre">Fantasy — Epic Tragedy</p>
+        <!-- HOME PAGE -->
+      <div id="page-home" class="page-section active">
+      <div class="container">
+      <header class="archive-header" data-clearance="CLASSIFIED ARCHIVE - CLEARANCE LEVEL 7">
+      <p class="author-name">KEN OSHIRO</p>
+      <h1 class="title glitch">RECORDS OF THE FALLEN</h1>
+      <p class="subtitle">Tales of survival, systems of oppression and justified atrocities.</p>
+      <div class="archive-status">
+      <span>Last synchronized: 3025.09.14</span>
+      <span>Recovery status: ${recovery_percent}% complete</span>
+      <span>Data integrity: COMPROMISED</span>
       </div>
-      <div class="excerpt">
-        <p>“From the towers came the chant, called forth by Wardens and mages, by those who counted hours and named days, whose sacred charge was to rouse Archeon from the embrace of night.<br><br>
-            <em>“Audite Solem surgentem!”</em><br>
-            (Hear the Sun rising!)<br> <br>
-            And from halls and humble chambers, from the depths of Bound houses, the voices rose in answer—roughened by sleep, yet unwavering with familiarity: <br><br>
-            <em>“Ave, Custos Aeternus—ductor noster, largitor noster!”</em><br>
-            (Hail, Eternal Watcher—our guide, our provider!)”<br></p>
-                  </div>
+      </header>
+
+      <div class="warnings">
+        <h3>⚠ ARCHIVE WARNING</h3>
+        <p>Some recovered stories contain mature academic content, tailored for an adult audience. Proceed with caution.</p>
+      </div>
+      
+      <div class="monitoring-protocol">
+        <h3>Monthly Dispatch - Recovery Alert System</h3>
+        <p>Enable monthly notifications when additional records are recovered from the archive.</p>
+        <p class="privacy-note">Your communication ID remains confidential. Terminate protocol at any time.</p>
+        <form
+          action="https://buttondown.com/api/emails/embed-subscribe/oshiro"
+          method="post"
+          target="popupwindow"
+          onsubmit="window.open('https://buttondown.com/oshiro', 'popupwindow')"
+          class="alert-signup"
+        >
+          <input 
+            type="email" 
+            name="email" 
+            placeholder="Enter transmission ID (email address)" 
+            required
+          >
+          <button type="submit">Enable Alerts</button>
+        </form>
+        
+      </div>
+
+      <div class="section-header">
+        <h2>TESTIMONIES</h2>
+        <p>Brief firsthand accounts of moral compromise</p>
+      </div>
+
+      <div class="book-grid testimonies-grid">
+        <div class="book-card testimony-card available" data-classification="TESTIMONY-001">
+          <img src="images/cover_cosmic.png" alt="Cosmic Pet Care" class="cover">
+          <div class="status-badge-indicator complete">Complete</div>
+          <div class="book-data">
+            <div class="book-meta">
+              <div class="content-info">
+                <span class="genre-tag">[GENRE: Dark Comedy]</span>
+                <span class="age-rating">[AGE: 13+]</span>
+              </div>
+            </div>
+            <div class="recovery-progress progress-complete">RECOVERY PROGRESS: 100.0%
+            <span class="reading-time-inline">Reading time: ~12m</span>
+            </div>
+            <h3 class="book-title">Cosmic Pet Care</h3>
+            <p class="book-description">
+              A bored AI discovers an elegant solution to universal entropy. Sometimes the most horrific acts require the least malice.
+            </p>
+            <a href="#" onclick="showStory('cosmic')" class="access-button available">Access Testimony</a>
+          </div>
+        </div>
+
+        <div class="book-card testimony-card not-available" data-classification="TESTIMONY-002">
+          <div class="cover-placeholder">
+            <span>ADDITIONAL TESTIMONY<br>CORRUPTION DETECTED</span>
+          </div>
+          <div class="status-badge-indicator no-data">No Data</div>
+          <div class="book-data">
+            <div class="book-meta">
+              <div class="content-info">
+                <span class="genre-tag">[GENRE: Unknown]</span>
+                <span class="age-rating">[AGE: Unknown]</span>
+              </div>
+              <div class="reading-info">
+                <span class="reading-time-inline">Reading time: Unknown</span>
+              </div>
+            </div>
+            <div class="recovery-progress progress-minimal">RECOVERY PROGRESS: 12.7%</div>
+            <h3 class="book-title">[DATA CORRUPTED]</h3>
+            <p class="book-description">
+              [FRAGMENT RECOVERY FAILED - MULTIPLE SECTOR DAMAGE]
+              <span class="extended-content">
+                <br><br>
+                [ERROR: UNABLE TO RECONSTRUCT NARRATIVE STRUCTURE]<br>
+                [WARNING: PARTIAL DATA SUGGESTS SYSTEMATIC VIOLATION OF ACCORD-SEVEN]<br>
+                [STATUS: AWAITING ENHANCED RECOVERY PROTOCOLS]
+              </span>
+            </p>
+            <a href="#" class="access-button not-available">Irrecoverable</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-header">
+        <h2>CASE STUDIES</h2>
+        <p>Detailed analysis of systematic moral collapse</p>
+      </div>
+
+      <div class="book-grid">
+        <div class="book-card available" data-classification="CASE-STUDY-A">
+          <img src="images/cover_incident.jpg" alt="A Most Tragic Incident" class="cover">
+          <div class="status-badge-indicator complete">Complete</div>
+          <div class="book-data">
+            <div class="book-meta">
+              <div class="content-info">
+                <span class="genre-tag">[GENRE: War Fiction]</span>
+                <span class="age-rating">[AGE: 18+]</span>
+                <span class="content-warnings">[CONTENT: Violence, Sexual Violence, War Crimes, Psychological Trauma]</span>
+              </div>
+            </div>
+            <div class="recovery-progress progress-complete">RECOVERY PROGRESS: 100.0%
+            <span class="reading-time-inline">Reading time: ~2h</span>
+            </div>
+            <h3 class="book-title">A Most Tragic Incident at the Periphery</h3>
+            <p class="book-description">
+              Another war erupts in the contested mountains of Tashkeria.
+              <span class="extended-content">
+              <br>
+              Artem, 19, a conscript carrying a rifle he barely knows how to use, is sent into a city that refuses to surrender.
+              <br><br>
+              Across the mountains, the neutral Republic of Normark mobilizes its reserves. Not to intervene. 
+              Just to keep the refugees out.
+              </span>
+            </p>
+            <a href="#" onclick="showStory('incident')" class="access-button available">Access Archive</a>
+          </div>
+        </div>
+      
+        <div class="book-card available" data-classification="CASE-STUDY-B">
+  <img src="images/cover_glory.jpg" alt="Glory to Mankind" class="cover">
+  <div class="status-badge-indicator complete">Free Access</div>
+  <div class="book-data">
+    <div class="book-meta">
+      <div class="content-info">
+        <span class="genre-tag">[GENRE: Hard Sci-Fi]</span>
+        <span class="age-rating">[AGE: 16+]</span>
+        <span class="content-warnings">[CONTENT: Violence, Suicide]</span>
+      </div>
+    </div>
+    <div class="recovery-progress progress-complete">
+      RECOVERY PROGRESS: 100.0%
+      <span class="reading-time-inline">Reading time: ~3h</span>
+    </div>
+    <h3 class="book-title">Glory to Mankind</h3>
+    <p class="book-description">
+      What remains of mankind lives underground, watched by its own sins.
+      <span class="extended-content">
+      <br>
+      The stars above are silent. No one knows if silence means peace, or extinction.
+      <br><br>
+      Ashlin tunnels deeper into pointless rock, calling herself a "rock bitch" while enduring the Starsiege Directive of endless preparation.
+      <br><br>
+      But how do you find meaning when even the leadership doubts the doctrine they order you to follow?
+      </span>
+    </p>
+    <a href="#" onclick="showStory('glory')" class="access-button available">Get Free Copy</a>
+  </div>
+</div>
+      </div>
+
+      <div class="section-header">
+        <h2>HISTORICAL RECORDS</h2>
+        <p>Comprehensive studies of civilizational structures and justifications of "necessary evils"</p>
+      </div>
+
+      <div class="book-grid">
+        <div class="book-card preview-available" data-classification="RECORD-001">
+          <img src="images/cover_elegy.png" alt="An Elegy to the Immortals" class="cover">
+          <div class="status-badge-indicator preview-available">Preview Available</div>
+          <div class="book-data">
+            <div class="book-meta">
+              <div class="content-info">
+                <span class="genre-tag">[GENRE: Dark Fantasy]</span>
+                <span class="age-rating">[AGE: 18+]</span>
+                <span class="content-warnings">[CONTENT: Violence, Sexual Violence, Suicide]</span>
+              </div>
+            </div>
+            <div class="recovery-progress progress-partial">
+              RECOVERY PROGRESS: 45.84%
+              <span class="reading-time-inline">Reading time: ~8h</span>
+            </div>
+            <h3 class="book-title">An Elegy to the Immortals</h3>
+            <p class="book-description">
+              In a world where magic is carved from the living, empires endure only by deciding who must die, and who is allowed to endure.
+              <span class="extended-content">
+              <br>
+              Elysia comes of age untouched but owned, trained as ornament and remembrance.<br>
+              Lucius, a war-scarred veteran, and his protégé Eris seek forbidden knowledge that challenges the empire's foundations.<br>
+              <br>
+              Each will learn that survival in Archeon demands compromise, betrayal, and the slow surrender of what remains of their own souls.
+              <br><br>
+              A curse has been prepared. Casting it will end civilization.
+              </span>
+            </p>
+            <a href="#" onclick="showStory('elegy')" class="access-button preview-available">Access Preview</a>
+          </div>
+        </div>
+
+        <div class="book-card not-available" data-classification="RECORD-002">
+          <div class="cover-placeholder">
+            <span>ADDITIONAL RECORD<br>AWAITING RECOVERY</span>
+          </div>
+          <div class="status-badge-indicator no-data">No Data</div>
+          <div class="book-data">
+            <div class="book-meta">
+              <div class="content-info">
+                <span class="genre-tag">[GENRE: Dark Fantasy]</span>
+                <span class="age-rating">[AGE: 18+]</span>
+                <span class="content-warnings">[CONTENT: Violence, Sexual Violence, Suicide]</span>
+              </div>
+              <div class="reading-info">
+                <span class="reading-time">Reading time: ~8h</span>
+              </div>
+            </div>
+            <div class="recovery-progress progress-minimal">RECOVERY PROGRESS: 0.00%</div>
+            <h3 class="book-title">A Requiem for the Living</h3>
+            <p class="book-description">
+              The second chronicle in the Elegy Cycle. Further documentation of the systematic implementation of soul-based atrocities and their lasting consequences.
+              <span class="extended-content">
+              <br><br>
+              </span>
+            </p>
+            <a href="#" class="access-button not-available">Recovery Pending</a>
+          </div>
+        </div>
+
+        <div class="book-card not-available" data-classification="RECORD-003">
+          <div class="cover-placeholder">
+            <span>FINAL RECORD<br>DEEP ARCHIVE STATUS</span>
+          </div>
+          <div class="status-badge-indicator no-data">No Data</div>
+          <div class="book-data">
+            <div class="book-meta">
+              <div class="content-info">
+                <span class="genre-tag">[GENRE: Dark Fantasy]</span>
+                <span class="age-rating">[AGE: 16+]</span>
+                <span class="content-warnings">[CONTENT: Violence, Sexual Violence, Suicide]</span>
+              </div>
+              <div class="reading-info">
+                <span class="reading-time">Reading time: ~8h</span>
+              </div>
+            </div>
+            <div class="recovery-progress progress-minimal">RECOVERY PROGRESS: 0.00%</div>
+            <h3 class="book-title">Silence by Flame</h3>
+            <p class="book-description">
+              The concluding volume of the Elegy Cycle. 
+              <span class="extended-content">
+              <br><br>
+              </span>
+            </p>
+            <a href="#" class="access-button not-available">Deep Archive</a>
+          </div>
+        </div>
+      </div>
+
+     <!-- Archive Reconstruction Protocols Footer -->
+        <div class="container">
+        <footer class="archive-reconstruction">
+            <div class="reconstruction-header">
+                <h3>Archive Reconstruction Protocols</h3>
+            </div>
+            <div class="reconstruction-content">
+                <div class="protocol-section">
+                    <span class="protocol-label">Terminal Interface Reconstruction</span>
+                    <div class="protocol-details">
+                        Procedural interface generation using Old Earth Predictive Models
+                        <ul class="model-list">
+                            <li class="model-item">Claude Sonnet 4 - Linguistic synthesis and structural analysis</li>
+                            <li class="model-item">GPT-4o & Gemini Flash 2.5  - Visual design reconstruction algorithms</li>
+                        </ul>
+                        <div class="supervision-note">
+                            All reconstruction processes executed under human archaeological supervision protocols
+                        </div>
+                    </div>
                 </div>
 
-    <!-- Author Note -->
-    <div class="author-note" style="margin-bottom: 2rem;">
-      <h3 style="font-size: 1.2rem; color: #e5c07b; margin-bottom: 1rem;">Author's Note</h3>
-      <p>[]</p>
-    </div>
+                               <div class="protocol-section">
+                    <span class="protocol-label">Archive Integrity Status</span>
+                    <div class="protocol-details">
+                        Simulations originally designed and ran by principal human architect<br>
+                        Final output reconstructed by predictive algorithms<br>
+                        Verified and corrected under human oversight 
+                    </div>
+                    <br>
+                </div>
 
-    <!-- Praise / Quote -->
-    <div class="praise" style="margin-bottom: 3rem; font-style: italic; text-align: center; color: #bbbbbb;">
-      <p>“[]”</p>
-    </div>
+            </div>
+        </footer>
 
-    <!-- Mood Image -->
-    <div class="mood-image">
-      <img src="/images/elegy_mood.png" alt="Mood illustration for Elegy" style="width: 100%; max-width: 500px; display: block; margin: 0 auto; border-radius: 6px;" />
-    </div>
+        <div class="legal-footer">
+            <div class="copyright">© 2025 Ken Oshiro. All rights reserved.</div>
+            <div class="timestamp">
+              Last protocol verification: 3025.09.15 | Archive build: v1.0
+            </div>
+        </div>
+        </div>
+      </div> <!-- Close the inner container -->
+    </div>   <!-- Close the home page section -->
 
-    <!-- Buttons -->
-   <div class="download-buttons">
-      <a href="/downloads/An_Elegy_To_The_Immortals_Prologue.pdf" class="download-button">Download Prologue - PDF</a>
-      <a href="/downloads/An Elegy To The Immortals-Prologue.epub" class="download-button">Download Prologue - EPUB</a>
-      <!-- <a href="/Buy/Elegy.html" class="btn" style="display: inline-block; margin: 0.5rem; padding: 0.75rem 1.5rem; background-color: #e5c07b; color: #0e0e0e; text-decoration: none; font-weight: 600; border-radius: 4px;">WIP</a> -->
-    </div>
+  <!-- ARCHIVIST PROFILE -->
+  <div id="page-archivist" class="page-section">
+    <div class="container">
+      <header class="archive-header" data-clearance="PERSONNEL FILE - CLEARANCE LEVEL 5">
+        <h1 class="title glitch">ARCHIVIST PROFILE</h1>
+        <p class="subtitle">Personnel record of primary archive recovery specialist</p>
+      </header>
 
-    <!-- Metadata Footer -->
-    <div class="metadata" style="text-align: center; font-size: 0.9rem; color: #888888;">
-      <p>Word Count: WIP &nbsp;|&nbsp; Content Warnings: [Violence] [Sexual abuse and grooming] [Suicidal ideation and self-harm] &nbsp;|&nbsp; Series: Book I of the Elegy Cycle</p>
-      <p>© 2025 Ken Oshiro. All rights reserved.</p>
+      <div class="profile-section">
+        <div class="profile-header">
+          <h2>Primary Archive Specialist</h2>
+        </div>
+        <div class="profile-content">
+          <div class="profile-image-section">
+            <div class="profile-image-placeholder">
+              PROFILE IMAGE<br>
+              [PENDING SECURITY CLEARANCE]
+            </div>
+            <div class="profile-status">
+              STATUS: ACTIVE RECOVERY OPERATIONS
+            </div>
+          </div>
+          <div class="profile-data">
+            <div class="data-field">
+              <span class="field-label">Name</span>
+              <div class="field-value">Ken Oshiro</div>
+            </div>
+            <div class="data-field">
+              <span class="field-label">Public Identity</span>
+              <div class="field-value">Game Developer</div>
+            </div>
+            <div class="data-field">
+              <span class="field-label">Location</span>
+              <div class="field-value">Finland</div>
+            </div>
+            <div class="data-field">
+              <span class="field-label">Education</span>
+              <div class="field-value">M.A. in Game Design and Production</div>
+              <div class="field-value">M.S. in Economics</div>
+            </div>
+            <div class="data-field">
+              <span class="field-label">Archive Clearance Level</span>
+              <div class="field-value">LEVEL 7 - CLASSIFIED</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Personal Log Entry 001 --> 
+<div class="biography-section">
+  <div class="biography-header">
+    <h3>Personal Log - Entry 001</h3>
+  </div>
+  <div class="biography-content">
+    <div style="color: #666; font-size: 0.8rem; margin-bottom: 1rem; text-align: center; border-bottom: 1px solid #333; padding-bottom: 0.5rem;">
+      [TIMESTAMP: 2846.11.23 - 02:17:45]<br>
+      [CLASSIFICATION: PERSONAL]<br>
+      [STATUS: ARCHIVED]
+    </div>
+    <p style="margin-bottom: 1.5rem;">
+      It started with mandatory reading in French lycée. Holocaust literature. While my classmates fed Primo Levi to their AIs for summaries, I couldn't stop reading. <em style="color: var(--secondary-gold);">Man's Search for Meaning</em>. <em style="color: var(--secondary-gold);">The Pianist</em>. <em style="color: var(--secondary-gold);">The Gulag Archipelago</em>. Something about the systematic nature of it all. The bureaucracy. The forms filled out in triplicate for mass murder.
+    </p>
+    
+    <p style="margin-bottom: 1.5rem;">
+      But it was Browning's <em style="color: var(--secondary-gold);">Ordinary Men</em> that provided the key insight. Reserve Police Battalion 101. Regular middle-aged Germans. Family men. Turned into executioners in occupied Poland.
+    </p>
+    
+    <p style="margin-bottom: 2rem; color: var(--warning-red); font-weight: bold;">
+      The most terrifying part wasn't the ideology. It was the logistics.
+    </p>
+    
+    <p style="margin-bottom: 1.5rem;">
+      Browning describes how the battalion struggled with their rifles at first. High-powered 7.62mm cartridges. When aimed at the head, they would... explode. Brain matter. Bone fragments. Blood spray coating uniforms.
+    </p>
+    
+    <p style="margin-bottom: 1.5rem;">
+      So they adapted. Learned to aim for the neck instead. Cleaner. More efficient. <span style="color: var(--warning-red); font-weight: bold;">Less laundry.</span>
+    </p>
+    
+    <p style="margin-bottom: 1.5rem;">
+      This wasn't ideology driving improvement. This was ordinary human problem-solving. Men who wanted to go home with clean uniforms finding better ways to murder children.
+    </p>
+    
+    <p style="margin-bottom: 0; color: var(--primary-green); font-weight: bold;">
+      They weren't Nazis. They were just people who got good at their job.
+    </p>
+  </div>
+</div>
+
+<!-- Research Methodology -->
+<div class="profile-section">
+  <div class="profile-header">
+    <h2>Research Methodology</h2>
+  </div>
+  <div style="padding: 1.5rem; background: #000000;">
+    <div style="color: #666; font-size: 0.8rem; margin-bottom: 1rem; text-align: center; border-bottom: 1px solid #333; padding-bottom: 0.5rem;">
+      [TIMESTAMP: 2846.12.15 - 14:33:12]<br>
+      [CLASSIFICATION: RESEARCH NOTES]<br>
+      [STATUS: ONGOING]
+    </div>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      The question consumed me: <em style="color: var(--warning-red); font-weight: bold;">Why?</em>
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      I enrolled in economics at university, convinced that economic forces shaped modern society more than anything else. If I wanted to understand how we got here, I needed to understand the mechanisms of power and resource distribution.
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      But capitalism was too recent. Too narrow. I kept studying history on my own, working backwards through time. Industrial Revolution. Age of Sail. Renaissance. All the way to antiquity. Economic patterns, yes, but also <span style="color: var(--secondary-gold);">military structures, social hierarchies, religious systems</span>.
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      Late nights cross-referencing data. <span style="color: var(--warning-red);">Atrocities across millennia</span>. I wasn't trained as a historian. It was just compulsion driving research.
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      With both lenses together, economic analysis and historical patterns, that's where it emerged.<br>
+      <strong style="color: var(--primary-green);">The pattern.</strong>
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      We aren't evil by nature. But we are <span style="color: var(--secondary-gold);">survivors</span>. And survival requires <span style="color: var(--warning-red);">rationalization</span>. We can justify almost anything if it means living another day, keeping our families fed, maintaining our position in the hierarchy.
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6;">
+      Every civilization reflects this capacity. Every golden age built on someone else's bones. Every moral code with convenient exceptions for the <span style="color: var(--warning-red);">necessary evils</span>.
+    </p>
+  </div>
+</div>
+<!-- Experimental Parameters -->
+<div class="access-log">
+  <div class="access-log-header">
+    <h3>Experimental Parameters</h3>
+  </div>
+  <div style="padding: 1.5rem; background: #000000;">
+    <div style="color: #666; font-size: 0.8rem; margin-bottom: 1rem; text-align: center; border-bottom: 1px solid #333; padding-bottom: 0.5rem;">
+      [TIMESTAMP: 2847.01.08 - 23:45:01]<br>
+      [CLASSIFICATION: SIMULATION DATA]<br>
+      [STATUS: ACTIVE MONITORING]
+    </div>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      So I ran simulations.
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      My second education in <span style="color: var(--secondary-gold);">game design and production</span> provided the methodological framework. Understanding <span style="color: var(--warning-red);">player psychology</span>, decision trees, and behavioral incentives under pressure proved directly applicable to civilizational analysis. Games, after all, are systems designed to reveal authentic choice patterns when <span style="color: var(--warning-red);">subjects believe the stakes matter</span>.
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      Given certain parameters in specific environments, how would we act? I had millennia of human history as my control group. Nudge an independent variable here. Alter social pressures there. Analyze the outcomes.
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">
+      The results were always the same.
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">
+      Different settings. Different technologies. Different ideologies. But the core pattern never changed. Rationalization. Adaptation. Whatever it took to preserve survival and social position. Sometimes it got extreme. Sometimes entire populations disappeared.
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">
+      But the systems achieved stability. At least for a while.
+    </p>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">
+      These testimonies document my experimental parameters. Each story represents a different configuration: variables adjusted to test the limits of human moral flexibility under pressure.
+    </p>
+    <p style="color: var(--warning-red); font-size: 0.9rem; line-height: 1.6; font-weight: bold;">
+      The subjects never knew they were being observed.
+    </p>
+  </div>
+</div>
+
+<!-- Personal Log Entry 004 -->
+<div class="biography-section">
+  <div class="biography-header">
+    <h3>Personal Log - Entry 004</h3>
+  </div>
+  <div class="biography-content">
+    <div style="color: #666; font-size: 0.8rem; margin-bottom: 1rem; text-align: center; border-bottom: 1px solid #333; padding-bottom: 0.5rem;">
+      [TIMESTAMP: 2847.02.28 - 01:12:33]<br>
+      [CLASSIFICATION: PERSONAL]<br>
+      [STATUS: FINAL ENTRY]
+    </div>
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      The cosmic horror of it isn't the supernatural elements. It's recognizing ourselves in every protagonist.
+    </p>
+    
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 2rem;">
+      In Nazi Germany, would you have been a Nazi if your children were starving during the Great Depression?
+    </p>
+    
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 2rem;">
+      In ancient Rome, would you have owned slaves if you could afford them? How far would you have "used" them?
+    </p>
+    
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 2rem;">
+      In an agrarian society, would you have supported patriarchy if male-line inheritance was the most efficient way to secure your territory and expand it? How long before you started believing women were naturally inferior to justify the system you needed?
+    </p>
+    
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      And what if the parameters were different? What if magic existed and required human sacrifice for power? What if we had star-powered AI and relativistic kill vehicles?
+    </p>
+    
+    <p style="color: var(--primary-green); font-size: 0.9rem; line-height: 1.6; font-weight: bold; margin-bottom: 1.5rem;">
+      These simulations answer those questions.
+    </p>
+    
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      I've arranged them by accessibility, not chronology. Start with the shorts if you can stomach them. The longer works require commitment.
+    </p>
+    
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; margin-bottom: 2rem;">
+      You might think you know how you'd act. But real understanding only comes from living through the choice.
+    </p>
+    
+    <p style="color: #ccc; font-size: 0.9rem; line-height: 1.6; font-weight: bold;">
+      Once you see the pattern, you'll recognize it everywhere.
+    </p>
+  </div>
+</div>
+
+      <div class="access-log">
+        <div class="access-log-header">
+          <h3>Recent Archive Access Log</h3>
+        </div>
+        <div class="log-entries">
+          <div class="log-entry">
+            <span class="log-action">TESTIMONY-001 Recovery Completed</span>
+            <span>09-14-3025 - 14:32:07</span>
+          </div>
+          <div class="log-entry">
+            <span class="log-action">CASE-STUDY-A Recovery Completed</span>
+            <span>09-14-3025 - 14:32:07</span>
+          </div>
+        </div>
+      </div>
+    </div>
+                          <div class="legal-footer">
+                <div class="copyright">© 2025 Ken Oshiro. All rights reserved.</div>
+                <div class="timestamp">
+                  Last protocol verification: 3025.09.15 | Archive build: v1.0
+                </div>
+              </div>
+              </div>
+
+  <!-- TRANSMISSION CHANNELS -->
+  <div id="page-transmission" class="page-section">
+    <div class="container">
+      <header class="archive-header" data-clearance="COMMUNICATION PROTOCOLS - CLEARANCE LEVEL 3">
+        <h1 class="title glitch">TRANSMISSION CHANNELS</h1>
+        <p class="subtitle">Authorized communication pathways for archive inquiries</p>
+      </header>
+
+      <div class="transmission-section">
+        <div class="transmission-header">
+          <h2>Available Communication Protocols</h2>
+        </div>
+        <div class="transmission-content">
+          <div class="contact-method">
+            <h3>Primary Transmission Channel</h3>
+            <p>
+              For archive-related inquiries, recovery collaboration requests, and testimonial submissions. 
+              All communications are monitored for security purposes and archived for historical record.
+            </p>
+            <div class="contact-info">
+              <a href="mailto:recordsofthefallen@proton.me">EMAIL: recordsofthefallen@proton.me</a>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <h3>Professional Network Interfaces</h3>
+            <p>
+              Connect through established professional and social networks for collaboration opportunities, 
+              project updates, and archive-related discussions.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link linkedin">LinkedIn Profile</a>
+              <a href="#" class="social-link">Twitter/X Feed</a>
+              <a href="#" class="social-link">Instagram</a>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <h3>Community Network</h3>
+            <p>
+              Connect with other researchers and archive contributors through community channels.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link">Discord Server</a>
+              <a href="#" class="social-link">Reddit Community</a>
+            </div>
+          </div>
+
+          <div class="warnings" style="margin-top: 2rem;">
+            <h3>⚠ TRANSMISSION SECURITY NOTICE</h3>
+            <p>All communications through these channels are subject to archival protocols. Sensitive information should be encrypted using standard temporal-quantum encryption methods. Unauthorized access attempts will be logged and reported to archive security.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+                                    <div class="legal-footer">
+                <div class="copyright">© 2025 Ken Oshiro. All rights reserved.</div>
+                <div class="timestamp">
+                  Last protocol verification: 3025.09.15 | Archive build: v1.0
+                </div>
+              </div>
+              </div>
+
+  <!-- STORY PAGES -->
+  <div id="page-story" class="page-section">
+    <div class="container">
+      <div class="back-to-archive">
+        <a href="#" onclick="showPage('home')">&larr; Return to Archive Index</a>
+      </div>
+      
+      <div class="story-header">
+        <div id="story-cover-container">
+          <!-- Cover will be inserted here -->
+        </div>
+        <div class="story-info">
+          <div class="story-classification" id="story-classification"></div>
+          <h1 class="story-title-main" id="story-title-main"></h1>
+          <div class="story-tags" id="story-tags"></div>
+          <div class="story-description-full" id="story-description-full"></div>
+        </div>
+      </div>
+
+      <!-- NEWSLETTER SIGNUP SECTION (for Glory to Mankind) -->
+<div class="newsletter-signup-section" id="newsletter-signup-section" style="display: none;">
+  <div class="access-header">
+    <div class="classification-badge">
+      <img src="images/logo_srd.png" alt="SRD" class="classification-logo">
+      <div class="classification-text">
+        <span class="classification-level">FREE REGISTRATION TO ACCESS ARCHIVE</span>
+        <span class="clearance-level">PUBLIC ACCESS</span>
+      </div>
+    </div>
+    <h3>COMPLETE ARCHIVE ACCESS</h3>
+  </div>
+  
+  <div class="newsletter-details">
+    <div class="transmission-info">
+      <h4>Monthly Dispatch Signup Offer</h4>
+      <p>Receive complete document immediately upon transmission verification.</p>
+      <p>Monthly dispatches will include:</p>
+      <ul>
+        <li>Analysis of systematic moral failures in historical and speculative contexts</li>
+        <li>Notifications of new archive recoveries and document releases</li>
+      </ul>
+      <p class="transmission-note">Low-frequency transmissions only. Archive protocol respects communication bandwidth.</p>
+    </div>
+    
+    <div class="signup-container">
+      <form
+        action="https://buttondown.com/api/emails/embed-subscribe/oshiro"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.com/oshiro', 'popupwindow')"
+        class="transmission-signup"
+      >
+        <input 
+          type="email" 
+          name="email" 
+          placeholder="Enter transmission ID (email address)" 
+          required
+        >
+        <button type="submit">Initialize Protocol & Receive Document</button>
+      </form>
+      <p class="privacy-note">Your communication ID remains confidential. Terminate protocol at any time.</p>
     </div>
   </div>
-</section>
+</div>
 
-<section id="glory" class="book-section">
-  <h2>Glory to Mankind</h2>
-  <p>...</p>
-</section>
+      <!-- PURCHASE SECTION -->
+      <div class="archive-access-section" id="archive-access-section">
+        <div class="access-header">
+          <div class="classification-badge">
+            <img src="images/logo_srd.png" alt="SRD" class="classification-logo">
+            <div class="classification-text">
+              <span class="classification-level">CLASSIFIED ACCESS</span>
+              <span class="clearance-level">CLEARANCE LEVEL 7</span>
+            </div>
+          </div>
+          <h3>FULL DOCUMENT ACCESS</h3>
+        </div>
+        
+        <div class="access-details">
+          <div class="document-specs">
+            <div class="spec-grid">
+              <div class="spec-row">
+                <span class="spec-label">Complete testimony:</span>
+                <span class="spec-value"><span id="word-count">--</span> words</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Document length:</span>
+                <span class="spec-value"><span id="page-count">--</span> pages</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Status:</span>
+                <span class="spec-value status-badge" id="story-status">UNDER REVIEW</span>
+              </div>
+            </div>
+          </div>
+          <div class="access-pricing">
+            <div class="price-container">
+              <span class="price-label">ACCESS FEE</span>
+              <span class="price" id="story-price">$5.99</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="purchase-buttons">
+          <button class="purchase-button disabled" id="direct-access-btn" disabled>
+            <span class="button-icon">⬇</span>
+            DIRECT ARCHIVE ACCESS
+          </button>
+          <button class="purchase-button disabled" id="retail-access-btn" disabled>
+            <span class="button-icon">🔗</span>
+            RETAIL NETWORKS
+          </button>
+        </div>
+        
+        <div class="status-info">
+          <div class="status-message" id="status-message">
+            <span class="status-icon">⚠</span>
+            Document undergoing final verification and review process. Access will be enabled upon completion.
+          </div>
+        </div>
+      </div>
 
+ <!-- PREVIEW SECTION -->
+  <div class="preview-section">
+    <div class="preview-header">
+      <div class="preview-classification">
+        <span class="preview-level">DOCUMENT PREVIEW</span>
+        <span class="preview-clearance">PUBLIC ACCESS</span>
+      </div>
+      <h3>Document Preview</h3>
+    </div>
+    <div class="preview-content">
+      <div class="preview-info">
+        <div class="preview-description">
+          <span class="preview-icon">👁</span>
+          Preview includes: Opening sequence (approx. 20% of full document)
+        </div>
+        <p class="preview-instructions">
+          Access preview content through download or web reader below.
+        </p>
+      </div>
+      <div class="download-buttons">
+        <a href="#" class="download-button pdf" id="pdf-preview-download">Preview PDF</a>
+        <a href="#" class="download-button" id="epub-preview-download">Preview EPUB</a>
+      </div>
+      <div class="web-reading-toggle">
+        <button class="toggle-button" id="web-reading-btn" onclick="toggleWebReading()">
+          Read Preview
+        </button>
+      </div>
+    </div>
+  </div>
 
-<section id="incident" class="book-section">
-  <h2>A Most Tragic Incident at the Periphery</h2>
-  <p>...</p>
-</section>
+  <!-- READING AREA (only shows story content when active) -->
+  <div class="reading-area" id="reading-area">
+    <div class="chapter-sidebar" id="chapter-sidebar">
+      <!-- Will be populated based on story type -->
+    </div>
+    <div class="story-content" id="story-content">
+      <div id="chapter-content">
+        <!-- Story content will be loaded here -->
+      </div>
+    </div>
+  </div>
 
-</main>
+  <!-- BOTTOM NAVIGATION (always visible, outside reading area) -->
+  <div class="bottom-navigation">
+    <button class="nav-button back-to-top" onclick="scrollToTop()" title="Return to top">
+      <span class="nav-icon">↑</span>
+      <span class="nav-text">BACK TO TOP</span>
+    </button>
+    <a href="#" class="nav-button back-to-archive" onclick="showPage('home')" title="Return to archive">
+      <span class="nav-icon">←</span>
+      <span class="nav-text">RETURN TO ARCHIVES</span>
+    </a>
+  </div>
+
+      </div> <!-- Close container -->
+  </div>   <!-- Close page-story -->
+
+  <script src="script.js"></script>
+
 </body>
 </html>
