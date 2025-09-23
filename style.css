@@ -2243,19 +2243,49 @@ body::after {
    ============================ */
 @media (max-width: 768px) {
   .container {
-    padding: var(--spacing-sm);
+    padding: var(--spacing-xs); /* Even less padding */
+    max-width: 100%; /* Ensure full width */
+  }
+
+  /* Ensure all sections use full width */
+  .monitoring-protocol,
+  .newsletter-signup-section,
+  .support-archives {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Hide detailed archive info on mobile - hide everything after subtitle */
+  .archive-header .archive-status,
+  .archive-status {
+    display: none !important;
+  }
+
+  /* Hide any text that contains recovery status info on mobile */
+  .archive-header > *:last-child {
+    display: none;
+  }
+
+  /* Make sure only title, subtitle, and author show on mobile */
+  .archive-header .title,
+  .archive-header .subtitle,
+  .archive-header .author-name {
+    display: block;
   }
 
   /* Compact header for mobile */
   .archive-header {
     margin-bottom: var(--spacing-sm);
-    padding: var(--spacing-sm); /* Much smaller padding */
+    padding: var(--spacing-xs) var(--spacing-sm);
   }
 
   .archive-header .title {
-    font-size: 1.4rem; /* Smaller title */
-    margin-bottom: 0.25rem;
+    font-size: 1.2rem; /* Even smaller title */
+    margin-bottom: 0.2rem;
     line-height: 1.1;
+    word-break: break-word; /* Prevent text overflow */
   }
 
   .archive-header .subtitle {
@@ -2268,59 +2298,60 @@ body::after {
     margin-bottom: 0.25rem;
   }
 
-  /* Navigation fixes */
-  .srd-logo {
-    width: 60px; /* Smaller logo */
-    height: 60px;
+  /* Simplified navigation - hide logo and title, only show nav buttons */
+  .nav-bar {
+    padding: 0;
   }
 
   .nav-container {
-    grid-template-columns: auto 1fr auto; /* Compact 3-column */
-    gap: var(--spacing-xs);
-    padding: 0 var(--spacing-sm);
+    grid-template-columns: 1fr; /* Single column for nav buttons only */
+    gap: 0;
+    padding: var(--spacing-xs);
+    text-align: center;
+    min-height: auto;
+  }
+
+  /* Hide logo and title on mobile */
+  .authority-section {
+    display: none;
   }
 
   .nav-logo-split {
-    font-size: 0.9rem; /* Smaller nav text */
+    display: none;
   }
 
-  .authority-section {
-    justify-self: start;
-  }
-
-  .authority-text {
-    font-size: 0.65rem;
-  }
-
+  /* Only show navigation buttons */
   .nav-links {
-    justify-self: end;
+    justify-self: center;
     gap: var(--spacing-sm);
+    order: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5rem 0; /* Small margin for breathing room */
   }
 
   .nav-links a {
-    font-size: 0.8rem;
-    padding: 0.25rem 0.5rem;
+    font-size: 0.7rem; /* Slightly larger since we have more space now */
+    padding: 0.4rem 0.8rem; /* More comfortable padding */
+    white-space: nowrap;
   }
 
-  /* Book grid - expand all cards by default */
-  .book-grid {
-    grid-template-columns: 1fr;
-    gap: var(--spacing-md);
-  }
-
+  /* Book cards - vertical layout for mobile */
   .book-card {
     width: 100%;
+    max-width: 350px; /* Limit maximum size */
+    margin: 0 auto; /* Center the cards */
     height: auto;
     min-height: auto;
-    /* Always expanded layout on mobile */
-    flex-direction: row;
+    /* Vertical layout on mobile */
+    flex-direction: column;
     align-items: stretch;
   }
 
   .book-card .cover,
   .book-card .cover-placeholder {
-    width: 140px; /* Fixed width for mobile */
-    height: 200px; /* Fixed height */
+    width: 100%; /* Full width of card */
+    height: 280px; /* Increased from 240px - should fully show "Cosmic Pet Care" */
     flex-shrink: 0;
     mask: none;
     -webkit-mask: none;
@@ -2330,33 +2361,34 @@ body::after {
 
   .book-card .book-data {
     flex: 1;
-    border-left: 1px solid var(--border-dark);
-    border-top: none;
+    border-left: none;
+    border-top: 1px solid var(--border-dark);
     padding: var(--spacing-sm);
     overflow: visible;
     background: #000000;
   }
 
-  /* Remove hover effects on mobile */
+  /* Remove hover effects on mobile - keep static vertical layout */
   .book-card:hover {
     width: 100%;
+    max-width: 350px;
     height: auto;
     transform: none;
-    flex-direction: row; /* Keep row layout */
+    flex-direction: column; /* Keep vertical layout */
     z-index: auto;
   }
 
   .book-card:hover .cover,
   .book-card:hover .cover-placeholder {
-    width: 140px; /* Maintain fixed size */
-    height: 200px;
+    width: 100%; /* Full width */
+    height: 280px; /* Keep larger mobile height */
   }
 
   .book-card:hover .book-data {
-    width: auto;
+    width: 100%;
     flex: 1;
-    border-left: 1px solid var(--border-dark);
-    border-top: none;
+    border-left: none;
+    border-top: 1px solid var(--border-dark);
   }
 
   .book-card:hover + .book-card {
@@ -2367,25 +2399,25 @@ body::after {
     opacity: 1; /* Keep full opacity */
   }
 
-  /* Book content adjustments */
+  /* Compact content for mobile */
   .book-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.95rem; /* Smaller title */
+    margin-bottom: 0.4rem;
     line-height: 1.2;
   }
 
   .book-card:hover .book-title {
-    font-size: 1rem; /* Keep same size */
+    font-size: 0.95rem; /* Keep same size */
   }
 
   .book-description {
-    font-size: 0.85rem;
-    line-height: 1.4;
-    margin-bottom: var(--spacing-sm);
+    font-size: 0.8rem; /* Smaller description */
+    line-height: 1.3;
+    margin-bottom: 0.6rem;
   }
 
   .book-card:hover .book-description {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     max-height: none;
     overflow-y: visible;
   }
@@ -2396,21 +2428,21 @@ body::after {
   }
 
   .book-meta {
-    font-size: 0.7rem;
-    gap: 0.25rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.65rem; /* Even smaller meta text */
+    gap: 0.2rem;
+    margin-bottom: 0.4rem;
   }
 
   .recovery-progress {
-    font-size: 0.65rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.4rem;
   }
 
   /* Button adjustments */
   .access-button {
-    font-size: 0.7rem;
-    padding: 0.4rem 0.8rem;
-    margin-top: 0.5rem;
+    font-size: 0.65rem;
+    padding: 0.35rem 0.7rem;
+    margin-top: 0.4rem;
   }
 
   /* Story detail page fixes */
