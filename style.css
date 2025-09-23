@@ -2246,142 +2246,243 @@ body::after {
     padding: var(--spacing-sm);
   }
 
+  /* Compact header for mobile */
+  .archive-header {
+    margin-bottom: var(--spacing-sm);
+    padding: var(--spacing-sm); /* Much smaller padding */
+  }
+
+  .archive-header .title {
+    font-size: 1.4rem; /* Smaller title */
+    margin-bottom: 0.25rem;
+    line-height: 1.1;
+  }
+
+  .archive-header .subtitle {
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .archive-header .author-name {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+  }
+
+  /* Navigation fixes */
   .srd-logo {
-    width: 80px;
-    height: 80px;
-}
+    width: 60px; /* Smaller logo */
+    height: 60px;
+  }
+
   .nav-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto 1fr auto; /* Compact 3-column */
+    gap: var(--spacing-xs);
+    padding: 0 var(--spacing-sm);
+  }
+
+  .nav-logo-split {
+    font-size: 0.9rem; /* Smaller nav text */
+  }
+
+  .authority-section {
+    justify-self: start;
+  }
+
+  .authority-text {
+    font-size: 0.65rem;
+  }
+
+  .nav-links {
+    justify-self: end;
     gap: var(--spacing-sm);
-    text-align: center;
-  }
-  .nav-links {
-    justify-content: center;
-    flex-wrap: wrap;
   }
 
-    .authority-section {
-    justify-self: center;
+  .nav-links a {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
   }
 
-  .nav-logo {
-    justify-self: center;
-  }
-
-  .nav-links {
-    justify-self: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .title {
-    font-size: 2rem;
-  }
-  
+  /* Book grid - expand all cards by default */
   .book-grid {
     grid-template-columns: 1fr;
-    gap: var(--spacing-sm);
+    gap: var(--spacing-md);
   }
-  
+
   .book-card {
     width: 100%;
     height: auto;
+    min-height: auto;
+    /* Always expanded layout on mobile */
+    flex-direction: row;
+    align-items: stretch;
   }
-  
+
+  .book-card .cover,
+  .book-card .cover-placeholder {
+    width: 140px; /* Fixed width for mobile */
+    height: 200px; /* Fixed height */
+    flex-shrink: 0;
+    mask: none;
+    -webkit-mask: none;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .book-card .book-data {
+    flex: 1;
+    border-left: 1px solid var(--border-dark);
+    border-top: none;
+    padding: var(--spacing-sm);
+    overflow: visible;
+    background: #000000;
+  }
+
+  /* Remove hover effects on mobile */
   .book-card:hover {
     width: 100%;
     height: auto;
     transform: none;
-    flex-direction: column;
+    flex-direction: row; /* Keep row layout */
+    z-index: auto;
   }
-  
+
   .book-card:hover .cover,
   .book-card:hover .cover-placeholder {
-    width: 100%;
-    height: 250px;
+    width: 140px; /* Maintain fixed size */
+    height: 200px;
   }
-  
+
   .book-card:hover .book-data {
-    width: 100%;
-    border-left: none;
-    border-top: 1px solid var(--border-dark);
+    width: auto;
+    flex: 1;
+    border-left: 1px solid var(--border-dark);
+    border-top: none;
   }
-  
+
+  .book-card:hover + .book-card {
+    transform: none; /* Disable transform chain */
+  }
+
+  .book-grid:hover .book-card:not(:hover) {
+    opacity: 1; /* Keep full opacity */
+  }
+
+  /* Book content adjustments */
+  .book-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+
+  .book-card:hover .book-title {
+    font-size: 1rem; /* Keep same size */
+  }
+
+  .book-description {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .book-card:hover .book-description {
+    font-size: 0.85rem;
+    max-height: none;
+    overflow-y: visible;
+  }
+
+  /* Always show extended content on mobile */
+  .book-description .extended-content {
+    display: block;
+  }
+
+  .book-meta {
+    font-size: 0.7rem;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .recovery-progress {
+    font-size: 0.65rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Button adjustments */
+  .access-button {
+    font-size: 0.7rem;
+    padding: 0.4rem 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  /* Story detail page fixes */
+  .story-header {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm);
+    text-align: center;
+  }
+
+  .story-cover {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .story-cover.square-format {
+    max-width: 200px;
+    min-width: 200px;
+  }
+
+  .story-title-main {
+    font-size: 1.6rem;
+  }
+
+  .story-tags {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  /* Other mobile adjustments */
   .profile-content {
     grid-template-columns: 1fr;
     gap: var(--spacing-sm);
   }
-  
-.story-header {
-  display: grid;
-  grid-template-columns: minmax(200px, 300px) 1fr; /* Flexible image column */
-  gap: var(--spacing-lg);
-  margin-bottom: var(--spacing-lg);
-  padding: var(--spacing-lg);
-  background: rgba(0, 255, 65, 0.05);
-  border: 1px solid var(--primary-green);
-}
-
-  
-.story-cover {
-  width: 100%;
-  max-width: 300px;
-  min-width: 200px;
-  height: auto;
-  aspect-ratio: 2/3;
-  border: 1px solid var(--border-dark);
-  object-fit: cover;
-  object-position: center center; /* Changed from 'center top' to show middle of image */
-}
-
-.story-cover-placeholder {
-  background: rgba(255,255,255,0.1);
-  border: 2px dashed var(--border-dark);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #666;
-  font-size: 0.9rem;
-  text-align: center;
-  padding: 1rem;
-}
 
   .reading-area {
     grid-template-columns: 1fr;
     gap: var(--spacing-sm);
     padding: var(--spacing-sm);
   }
-  
+
   .chapter-sidebar {
     position: static;
   }
-  
+
   .support-buttons,
   .download-buttons,
   .social-links {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .alert-signup {
     flex-direction: column;
   }
-  
+
   .chapter-navigation {
     flex-direction: column;
     gap: var(--spacing-sm);
     text-align: center;
   }
- .access-details {
+
+  .access-details {
     flex-direction: column;
     text-align: center;
     gap: 1rem;
   }
-  
+
   .purchase-buttons {
     flex-direction: column;
   }
-  
+
   .purchase-button {
     min-width: auto;
   }
@@ -2392,27 +2493,27 @@ body::after {
     text-align: center;
     gap: 1rem;
   }
-  
+
   .classification-badge,
   .preview-classification {
     align-items: center;
   }
+
   .legal-footer {
     padding: 1rem;
     font-size: 0.8rem;
   }
-  
+
   .legal-footer .timestamp {
     font-size: 0.7rem;
   }
-  
+
   .content-copyright {
     padding: 0.5rem;
     font-size: 0.75rem;
   }
 
-    .transmission-signup {
+  .transmission-signup {
     flex-direction: column;
   }
- 
 }
